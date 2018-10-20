@@ -1,0 +1,18 @@
+[submodule "Semester 1/Applied Data Analysis/ADA2018-Homework"]
+	path = Semester 1/Applied Data Analysis/ADA2018-Homework
+	url = git@github.com:epfl-ada-2018/ADA2018-Homework.git
+[submodule "Semester 1/Applied Data Analysis/ADA2018-Tutorials"]
+	path = Semester 1/Applied Data Analysis/ADA2018-Tutorials
+	url = git@github.com:epfl-ada-2018/ADA2018-Tutorials.git
+[submodule "Semester 1/ML/ML_course"]
+	path = Semester 1/ML/ML_course
+	url = git@github.com:alex-mocanu/ML_course.git
+[submodule "Semester 1/Applied Data Analysis/Homework/homework-0-romanians"]
+	path = Semester 1/Applied Data Analysis/Homework/homework-0-romanians
+	url = git@github.com:epfl-ada-2018/homework-0-romanians.git
+[submodule "Semester 1/Applied Data Analysis/Homework/homework-1-romanians_hw1"]
+	path = Semester 1/Applied Data Analysis/Homework/homework-1-romanians_hw1
+	url = git@github.com:epfl-ada-2018/homework-1-romanians_hw1.git
+[submodule "Semester 1/Applied Data Analysis/Homework/homework-2-romanians-hw2"]
+	path = Semester 1/Applied Data Analysis/Homework/homework-2-romanians-hw2
+	url = git@github.com:epfl-ada-2018/homework-2-romanians-hw2.git
