@@ -16,3 +16,9 @@
 [submodule "Semester 1/Applied Data Analysis/Homework/homework-2-romanians-hw2"]
 	path = Semester 1/Applied Data Analysis/Homework/homework-2-romanians-hw2
 	url = git@github.com:epfl-ada-2018/homework-2-romanians-hw2.git
+[submodule "Semester 1/ML/epfml"]
+	path = Semester 1/ML/epfml
+	url = git@github.com:rusucosmin/epfml.git
+[submodule "Semester 1/Data Visualization/Books/d3-book"]
+	path = Semester 1/Data Visualization/Books/d3-book
+	url = git@github.com:alignedleft/d3-book.git
