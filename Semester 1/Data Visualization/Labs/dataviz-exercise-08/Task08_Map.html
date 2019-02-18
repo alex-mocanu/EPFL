@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Exercise X: ....</title>
+	<meta name="description" content="Exercise X: ...">
+	<meta name="author" content="Kirell Benzi, Krzysztof Lis, Volodymyr Miz">
+
+<style>
+* {
+	box-sizing: border-box;
+}
+
+body {
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	border: 0;
+
+	max-width: 60rem;
+	margin-left: auto;
+	margin-right: auto;
+
+	font-family: sans-serif;
+	font-size: 1.1rem;
+	line-height: 120%;
+
+	text-align: justify;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+	color: rgb(0, 44, 122);
+}
+h3, h4, h5, h6 {
+	font-weight: normal;
+}
+
+h1 { font-size: 2rem; }
+h2 { font-size: 1.75rem; }
+h3 { font-size: 1.4rem; }
+h4 { font-size: 1.25rem; }
+
+figure {
+	width: 100%;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+}
+
+body > img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+code {
+	color: rgb(0, 44, 122);
+}
+</style>
+</head>
+<body>
+<h1 id="lab-8---map">Lab 8 - Map</h1>
+<p>In this assignment, you will create a choropleth map of Switzerland and visualize Instagram posts on top of it. We collected this dataset (52 378 posts) during the Easter 2016, from 24/03/2016 to 30/03/2016 – the time of increasing user activity on Instagram. You can find an example of a similar visualization of this dataset <a href="http://blog.miz.space/visualisation/2016/06/08/instagram-data-visualisation/">here</a>.</p>
+<h2 id="data">Data</h2>
+<ul>
+<li><code>locations.csv</code> - GPS coordinates of Instagram posts</li>
+<li><code>cantons-population.csv</code> - population density in each canton</li>
+<li><code>ch-cantons.json</code> - TopoJSON representation of Switzerland, obtained from <a href="https://github.com/greenore/swiss-maps" class="uri">https://github.com/greenore/swiss-maps</a></li>
+</ul>
+<p>This task requires loading all three datasets. We can draw the plot only after all of them have been loaded. However JS’s loading code is asynchronous. To wait for an asynchronous operation to complete, we use <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise">Promises</a>. We wait for several promises to finish by using <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/all">Promise.all</a>.</p>
+<p>Remember this method if you need to load several data files.</p>
+<h2 id="goals">Goals</h2>
+<ul>
+<li>Create a choropleth</li>
+<li>map of Switzerland with cantons.</li>
+<li>Color each canton on the choropleth map according to its population.</li>
+<li>Display Instagram posts on the map using GPS coordinates of each post.</li>
+</ul>
+<h2 id="tools">Tools</h2>
+<h3 id="topojson">TopoJSON</h3>
+<p>It is convenient to represent our maps in the <a href="https://github.com/topojson/topojson">TopoJSON format</a>. Essentially it encodes the borders of regions (such as countries or cantons) on the map. D3.js has an API for quickly drawing these.</p>
+<p>TopoJSON files are available for many areas:</p>
+<ul>
+<li>World <a href="https://github.com/topojson/world-atlas" class="uri">https://github.com/topojson/world-atlas</a></li>
+<li>Switzerland <a href="https://github.com/greenore/swiss-maps" class="uri">https://github.com/greenore/swiss-maps</a></li>
+</ul>
+<p>We parse them using the <a href="https://github.com/topojson/topojson">topojson library</a>:</p>
+<pre><code>const topojson = topojson.feature(json_object, json_object.objects.cantons);
+const topojson_objects = topojson.features; // &lt;- we use this with d3.js</code></pre>
+<p>The second argument specifies what kind object we are drawing, for a world map these could for example be countries not cantons.</p>
+<p>Display the objects in <code>topojson_objects</code> in console to see what data they contain. Store each canton’s population density in <code>topo_obj.properties.density</code>. (match them by <code>id</code>) We will use that for plotting later.</p>
+<h3 id="map-projection">Map projection</h3>
+<p>Projections are an equivalent of scales which we used in previous exercises, but they convert from geographical coordinates [longitude, latitude] to the SVG space.</p>
+<p>Different projections are available <a href="https://github.com/d3/d3-geo/blob/master/README.md#azimuthal-projections">D3.js projections</a> There are many ways of projecting a sphere’s surface on a plane, each of them imperfect in its own way. Choose the one you like the most. For example, you can use <a href="https://github.com/d3/d3-geo/blob/master/README.md#geoNaturalEarth1">d3.geoNaturalEarth1</a>.</p>
+<p>We need to setup the projection using these <a href="https://github.com/d3/d3-geo/blob/master/README.md#projections">properties</a></p>
+<ul>
+<li><code>.center([center_lon, center_lat])</code> - center of your view in map geographical coordinates. Find the geographical center of Switzerland.</li>
+<li><code>.scale( scale )</code> - experiment with this to get a desired zoom of the map. If you have a zoom feature, you can change the scale when the user wants to zoom in/out. For the map of Switzerland we advise trying a scale above 10000.</li>
+<li><code>.translate( [center_x, center_y] )</code> - center in SVG coordinate space (equivalent to scale.range)</li>
+</ul>
+<h3 id="displaying-regions">Displaying regions</h3>
+<p>Regions are displayed as SVG paths. Like in the color histogram exercise, we need a d3.js path generator which converts the data into a path’s <code>&quot;d&quot;</code> attribute. For geographical data we use <a href="https://github.com/d3/d3-geo#geoPath">d3.geoPath</a> and give it your chosen projection.</p>
+<p>Color each canton (set the path’s <code>fill</code>) on the choropleth map according to its population.</p>
+<p>Because the popoulation density is very varied, we need to use a logarithmic scale <a href="https://github.com/d3/d3-scale#scaleLog">d3.scaleLog</a>. The range of a scale can be a pair of colors. Interpolating in the <strong>hue</strong> (HSV space) can be aethetically pleasing - to do so, use <a href="https://github.com/d3/d3-interpolate#interpolateHcl">d3.interpolateHcl</a>:</p>
+<pre><code>my_scale.interpolate(d3.interpolateHcl);</code></pre>
+<p>Give the created regions the <code>canton</code> CSS class which defines the borders (see <code>index.html</code> to edit them).</p>
+<h3 id="displaying-labels">Displaying labels</h3>
+<p>Please add the names of each canton:</p>
+<ul>
+<li>Create a text element for each canton (</li>
+<li>Give it CSS class <code>canton-label</code> (see <code>index.html</code> to edit the text style)</li>
+<li>Set the <code>transform</code> attribute to move the text in the proper place <a href="https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/transform#Translate">(about SVG transforms)</a> The center of the region can be calculated with the same path generator that we used to draw the regions using <a href="https://github.com/d3/d3-geo#path_centroid">centroid</a>:</li>
+</ul>
+<pre><code>let center = path_generator.centroid(geo_contour)</code></pre>
+<h3 id="displaying-points">Displaying points</h3>
+<p>Please display a circle for each Instagram post (if this is slow to load, you can use every 10-th post instead). It is very similar to our scatter plot, but we use the geographic projection we defined before:</p>
+<pre><code>let svg_position = projection([longitude, latitude])</code></pre>
+<h3 id="colorbar">Colorbar</h3>
+<p>If we use colors on a map, we have to explain what they mean. We have provided code to create a colorbar. Please call that after you have constructed your color scale and set its domain and range.</p>
+<pre><code>this.makeColorbar(this.svg, color_scale, [50, 30], [20, this.svg_height - 2*30]);</code></pre>
+<h2 id="final-result">Final result</h2>
+<p><img src="task_images/map_final.png" width="640" /></p>
+
+</body>
+</html>

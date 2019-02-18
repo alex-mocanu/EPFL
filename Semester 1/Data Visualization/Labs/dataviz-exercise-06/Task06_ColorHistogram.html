@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Exercise 6: Color Histogram</title>
+  <meta name="description" content="Exercise X: ...">
+  <meta name="author" content="Kirell Benzi, Krzysztof Lis, Volodymyr Miz">
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  border: 0;
+
+  max-width: 60rem;
+  margin-left: auto;
+  margin-right: auto;
+
+  font-family: sans-serif;
+  font-size: 1.1rem;
+  line-height: 120%;
+
+  text-align: justify;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+  color: rgb(0, 44, 122);
+}
+h3, h4, h5, h6 {
+  font-weight: normal;
+}
+
+h1 { font-size: 2rem; }
+h2 { font-size: 1.75rem; }
+h3 { font-size: 1.4rem; }
+h4 { font-size: 1.25rem; }
+
+figure {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+body > img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+code {
+  color: rgb(0, 44, 122);
+}
+</style>
+</head>
+
+<body>
+
+
+
+<h1 id="lab-6.-d3.js---color-histogram">Lab 6. D3.js - Color Histogram</h1>
+<p>This lab is about interactive plots and color spaces. This time, we propose you to make an animated color histogram. If you used Gimp, Lightroom or Photoshop, you saw them there. Read more about color histograms <a href="https://en.wikipedia.org/wiki/Color_histogram">here</a>.</p>
+<p>The end result swill look like this:</p>
+<p><img src="task_images/histogram_example.jpg" width="640" /></p>
+<p>Let’s consider the parts of this visualization:</p>
+<ul>
+<li>The background is the analyzed image. We provide the code which loads the image and calculates color histograms.</li>
+<li>The white-edged rectangle is the selection <a href="https://github.com/d3/d3-brush#api-reference"><em>brush</em></a></li>
+<li>Three curve plots represent the histograms of red, green and blue pixel values withing the selected area.</li>
+</ul>
+<h2 id="overlay">Overlay</h2>
+<p>Please look at the CSS in <code>exercise/style.css</code> - the rules for <code>figure</code> and <code>.overlay</code> put the SVG on top of the image (the SVG has the class <code>.overlay</code>). The effect is achieved using <code>position: absolute</code>.</p>
+<h2 id="brush">Brush</h2>
+<p>First let us setup the <a href="https://github.com/d3/d3-brush#api-reference"><em>brush</em></a> (area selection tool). You can example usage of a 2D brush <a href="https://bl.ocks.org/mbostock/f48fcdb929a620ed97877e4678ab15e6">here</a>.</p>
+<p>First we need to create a brush object and register the event handler. The function is called when the user finishes changing the selected area. If you prefer to update while the user is moving the area, you can listen to the <code>&quot;brush&quot;</code> event instead of <code>&quot;end&quot;</code>.</p>
+<pre><code>var brush = d3.brush().on(&quot;end&quot;,  () =&gt; {
+    // this is called when the selection is changed
+});</code></pre>
+<p>The selected area is specified in <code>d3.event.selection</code> as <code>[[x_min, y_min], [x_max, y_max]]</code> or <strong>null</strong> if nothing is selected.</p>
+<p>We also need to create a visual representation of the brush (the white edged rectangle):</p>
+<pre><code>svg.append(&quot;g&quot;)
+    .attr(&quot;class&quot;, &quot;brush&quot;)
+    .call(brush);</code></pre>
+<p>Create the brush and register the selection event. Print the coordinates of the selected area in the console.</p>
+<p>Now that we have the selected area, we can use the provided method <code>getImageHistogramOfArea(x_left, y_top, width, height)</code> to calculate the histograms. Try printing the resulting data.</p>
+<h2 id="histogram-plots">Histogram plots</h2>
+<p>Now we shall plot the histogram data.</p>
+<p>Create the plots for the red, green and blue channels. To draw curves use the <a href="https://d3indepth.com/shapes/#line-generator">line</a> or <a href="https://d3indepth.com/shapes/#area-generator">area</a> generators (given an array of values, they generate the textual representation to be used by the SVG <code>path</code>’s <code>d</code> attribute - see examples under those links). You can use the provided <code>red</code>, <code>green</code> and <code>blue</code> CSS classes to set the colors of the curves.</p>
+<p>As usual with d3.js plots, use <a href="https://d3indepth.com/scales/">scales</a> to convert from data values to plot coordinates. The viewBox of the plot is <code>[0, 0, 900, 400]</code>, use the whole area.</p>
+<p>You can try plotting some dummy data before you connect it to the selection mechanism - its easier to develop the parts separately.</p>
+<p>The Y scale should adapt to the calculated histograms: the upper value of its <code>domain</code> should equal to the maximum value in the histograms. You can call <code>domain</code> again on an existing scale object to change its input range.</p>
+<h2 id="cross-origin">Cross-origin</h2>
+<p>If you are getting the error on Chrome:</p>
+<pre><code>The canvas has been tainted by cross-origin data.</code></pre>
+<ul>
+<li>Load your site from a local webserver and open <code>localhost:8000</code> in the browser:</li>
+</ul>
+<pre><code>    cd exercise_dir
+    python3 -m http.server</code></pre>
+<ul>
+<li>Alternatively: it should work in Firefox</li>
+</ul>
+</body>
+</html>

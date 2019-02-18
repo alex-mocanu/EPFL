@@ -14,7 +14,7 @@
 	path = Semester 1/Applied Data Analysis/Homework/homework-1-romanians_hw1
 	url = git@github.com:epfl-ada-2018/homework-1-romanians_hw1.git
 [submodule "Semester 1/Applied Data Analysis/Homework/homework-2-romanians-hw2"]
-	path = Semester 1/Applied Data Analysis/Homework/homework-2-romanians-hw2
+	path = Semester 1/Applied Data Analysis/Homework/hm2
 	url = git@github.com:epfl-ada-2018/homework-2-romanians-hw2.git
 [submodule "Semester 1/ML/epfml"]
 	path = Semester 1/ML/epfml
@@ -22,3 +22,15 @@
 [submodule "Semester 1/Data Visualization/Books/d3-book"]
 	path = Semester 1/Data Visualization/Books/d3-book
 	url = git@github.com:alignedleft/d3-book.git
+[submodule "Semester 1/Applied Data Analysis/Homework/homework-4-romanians-hw2"]
+	path = Semester 1/Applied Data Analysis/Homework/homework-4-romanians-hw2
+	url = git@github.com:epfl-ada-2018/homework-4-romanians-hw2.git
+[submodule "Semester 1/ML/rs"]
+	path = Semester 1/ML/rs
+	url = git@github.com:rusucosmin/rs.git
+[submodule "Semester 1/Applied Data Analysis/Project"]
+	path = Semester 1/Applied Data Analysis/Project
+	url = git@github.com:alex-mocanu/Project.git
+[submodule "Semester 2/Signal Processing/COM303-Py3"]
+	path = Semester 2/Signal Processing/COM303-Py3
+	url = git@github.com:prandoni/COM303-Py3.git
