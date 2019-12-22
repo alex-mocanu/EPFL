@@ -1,0 +1,46 @@
+# Input: start location, finish location, time of departure/arrival, (desired
+probability of arrival)
+# Output: trains/buses to take for the fastest route
+
+# Basic problem: provide output assuming all public transportation respect the
+schedule
+# Actual problem: provide output given that we want some degree of certainty
+that this is the fastest route
+
+# Basic problem solution
+* Departure time given
+I. Build isochronous map
+We use the following function to associate costs to the connections between
+stations given the starting station and the departure time.
+function BFS(station, start_time):
+    station_queue <- [(station, start_time)]
+    visited_stations <- [False] * num_stations
+    while station_queue not empty:
+        station, start_time <- station_queue.pop()
+        visited_stations[station] = True
+        neigh_stations <- stations adjacent to station
+        for neigh_station in neigh_stations:
+            if visited_stations[neigh_station] == True:
+                continue
+            arrival_time <- arrival time to neigh_station for the next trip from station
+            cost[station][neigh_station] <- arrival_time - start_time
+            station_queue.push((neigh_station, arrival_time))
+II. Run Dijkstra from the start station
+Given the isochronous map build with the algorithm presented above, we can now
+run Dijkstra to find the fastest route to the destination station.
+* Arrival time given
+We use the same algorithm as before, but now we move backwards, starting our
+BFS from the destination.
+
+# Actual problem solution
+
+# Basic problem data
+For each day of the week, we need a timetable for the trips.
+* Stop locations: station
+* Connections between adjacent stations: start station, stop station
+* Trips: start station, start time, stop station, stop time, intermediary
+stations along with their arrival and departure times
+* Trip timetable: station, trip id, arrival time, departure time
+
+# Actual problem additional data
+* Delay distribution: station, trip id, delay time, delay probability

@@ -1,0 +1,46 @@
+Papers
+1. J. Peters and J. Schaal, Reinforcement learning of motor skills with policy gradients
+    - update on Policy Gradient Methods for Robotics
+2. A. Mnih and K. Gregor, Neural Variational Inference and Learning in Belief Networks
+    - no reinforcement learning, just a mention of REINFORCE as a special case of their study
+    - no optimal baselines discussed; they use a neural net to fit the baseline
+3. S. Bhatnagar et al., Natural actor-critic algorithms
+    - they use the average return as the objective and make use of the stationary distribution of the state chain
+    - value function baseline minimizes variance of the action-value function estimator (used in gradient estimation)
+    - no discounted value function considered
+4. S. Gu et al., Q-Prop: Sample-efficent policy gradient with an off-policy critic
+    - they use discounted reward with infinite horizon
+    - they use a neural net to adapt the baseline which estimates the action-value function through TD
+    - they evaluate the variance of their estimator, but do not discuss optimality
+5. L. Weaver and N. Tao, The Optimal Reward Baseline for Gradient·Based Reinforcement Learning
+    - they consider the discounted value function (as a way of reducing the variance of the average reward objective)
+    - for H->inf and discount factor->1, the optimal baseline is the average reward
+    - they also make use of the stationary regime for bounding expressions
+6. T. Zhao et al., Analysis and Improvement of Policy Gradient Estimation
+    - they use the average reward as objective
+    - they derive the optimal baseline for the PGPE estimator
+7. C. Wu et al., Variance Reduction for Policy Gradient with Action-Dependent Factorized Baselines
+    - they use the discounted value function, but use baselines parameterized by action
+    - the baseline is also not considered coordinate-wise
+    - the optimal state dependent baseline, uniform over policy parameter coordinates, is deduced in the appendix
+
+Setups
+1. Cartpole - J. Peters et al., Reinforcement Learning for Humanoid Robotics
+    - state is represented by
+        - the position of the cart
+        - the velocity of the cart
+        - the angle of the pole
+        - the angular velocity of the pole
+    - action is represented by the accelaration applied on the cart
+    - the initial state is normally distributed around zero movement, zero velocity, zero angle and zero angular velocity
+    - the next state is normally distributed around a mean determined by the previous state and previous action
+    - the reward is computed as a weighted sum of squares of state components and action
+    - the policy is a Gaussian; its mean is a linear combination of the state components, its variance is controlled by another parameter to be adjusted
+    - samples are generated with a frequenc of 60Hz
+    - the pole leaves the region [-pi/6, pi/6] and the cart leaves the region [-x,x], the system is reset
+    - duration of the episode is not mentioned, but we could say that we want to optimize our reward over some fixed number of steps
+2. Nonlinear dynamic motor primitives - A. J. Ijspeert et al., Learning Rhythmic Movements by Demonstration using Nonlinear Oscillators
+3. 3 state MDP with anayltically computable gradient - J. Baxter et al., Experiments with Infinite-Horizon, Policy-Gradient Estimation
+    - three states, two actions
+    - softmax policy with linear combination between policy parameters and the two state features
+    - no fixed number of steps per episode specified

@@ -1,0 +1,4 @@
+Due to tasks 2b and 2c being very similar, I implemented both in the same source
+file, ex2bc.py, and in order to run one of the tasks, its name (b or c) needs to
+be provided as a second command-line argument, after the name of the dictionary
+to be used for cracking.

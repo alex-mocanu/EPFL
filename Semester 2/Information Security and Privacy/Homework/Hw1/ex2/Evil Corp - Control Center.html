@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<!-- saved from url=(0034)http://com402.epfl.ch/hw1/ex2/list -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+
+        <title>Evil Corp - Control Center</title>
+        <meta name="description" content="The dedis intranet secure login page">
+        <meta name="author" content="SuperBadDeveloper">
+         <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="./Evil Corp - Control Center_files/bootstrap.min.css">
+
+        <!-- jQuery library -->
+        <script src="./Evil Corp - Control Center_files/jquery.min.js"></script>
+
+        <!-- Latest compiled JavaScript -->
+        <script src="./Evil Corp - Control Center_files/bootstrap.min.js"></script>
+
+        <link rel="stylesheet" type="text/css" href="./Evil Corp - Control Center_files/hw1_ex2.css" media="screen">
+        <link rel="stylesheet" type="text/css" href="./Evil Corp - Control Center_files/hw1_ex2(1).css">
+
+
+
+    </head>
+    <body>
+
+<div class="site-wrapper">
+
+      <div class="site-wrapper-inner">
+
+        <div class="cover-container">
+
+          <div class="inner cover">
+            <img src="./Evil Corp - Control Center_files/ECorp.png" width="225" height="205">
+            <h1 class="cover-heading"> Control Center </h1>
+            <p class="lead">This is the control center of Evil Corp. You're just
+            one click away of hacking anyone in the world. Of course, this power
+            is only granted to our dear administrators.</p>
+          </div>
+
+
+
+
+<div class="container">
+  <div class="row">
+    <div id="users-management" class="col-md-8">
+      <div class="panel-group" id="accordion">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="http://com402.epfl.ch/hw1/ex2/list#collapse-1">
+                  <!--<img src="http://lorempixel.com/128/128/people/?1" class="img-circle"> John Doe -->
+                  <img src="./Evil Corp - Control Center_files/Swamp-Castle-monty-python-and-the-holy-grail-591602_800_441.jpg" class="img-circle"> King of Swamp
+              </a>
+              <div class="btn-group pull-right"><a href="http://com402.epfl.ch/hw1/ex2/list#" id="button_swamp" class="btn btn-danger"><i class="fa fa-times"></i><span>
+                          Hack &amp; Spy </span></a></div>
+            </h4>
+          </div>
+          <div id="collapse-1" class="panel-collapse collapse">
+            <div class="panel-body">
+                <img src="./Evil Corp - Control Center_files/Swamp-Castle-monty-python-and-the-holy-grail-591602_800_441.jpg" class="pull-left img-responsive img-circle">
+              <p> When I first came here, this was all
+              swamp. Everyone said I was daft to build a castle on a swamp, but
+              I built in all the same, just to show them. It sank into the
+              swamp. So I built a second one. And that one sank into the swamp.
+              So I built a third. That burned down, fell over, and then sank
+              into the swamp. But the fourth one stayed up. And that’s what
+              you’re going to get, Son, the strongest castle in all of England.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="http://com402.epfl.ch/hw1/ex2/list#collapse-2">
+                  <img src="./Evil Corp - Control Center_files/timenchanter.png" class="img-circle"> Tim the Enchanter
+              </a>
+              <div class="btn-group pull-right"><a href="http://com402.epfl.ch/hw1/ex2/list#" id="button_tim" class="btn btn-danger"><i class="fa fa-times"></i><span>
+                          Hack &amp; Spy </span></a></div>
+            </h4>
+          </div>
+          <div id="collapse-2" class="panel-collapse collapse">
+            <div class="panel-body">
+                <img src="./Evil Corp - Control Center_files/Tim-Enchanter-Monty-Python-Holy-Grail.jpg" class="pull-left img-responsive img-circle">
+                <br>
+            <p>     King Arthur: Who are you who can summon fire without flint
+            or tinder? </p>
+            <p>Tim: There are some who call me... Tim.
+                </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="http://com402.epfl.ch/hw1/ex2/list#collapse-3">
+                  <img src="./Evil Corp - Control Center_files/King-Arthur-and-Patsy-monty-python-380178_800_441_4926.jpg" class="img-circle"> Arthur
+              </a>
+              <div class="btn-group pull-right"><a href="http://com402.epfl.ch/hw1/ex2/list#" id="button_arthur" class="btn btn-danger"><i class="fa fa-times"></i><span>
+                          Hack &amp; Spy </span></a></div>
+            </h4>
+          </div>
+          <div id="collapse-3" class="panel-collapse collapse">
+            <div class="panel-body">
+                <img src="./Evil Corp - Control Center_files/King-Arthur-and-Patsy-monty-python-380178_800_441_4926.jpg" class="pull-left img-responsive img-circle">
+                <br>
+                <p>
+                Arthur: The Lady of the Lake, her arm clad in the purest
+                shimmering silmite held aloft Excalibur from the bosom of the
+                water, signifying by divine providence that I, Arthur, was to
+                carry Excalibur. That is why I am your king! </p>
+                <p>
+Dennis: Listen, strange women lyin’ in ponds distributin’ swords is no basis for
+a system of government! Supreme executive power derives from a mandate from the
+masses, not from some farcical aquatic ceremony!
+                </p>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+</div>
+
+</div>
+      </div>
+
+        </div>
+        <script>
+            postJSON = function(url,data){
+                console.log(data);
+                return $.ajax({url:url,data:JSON.stringify(data),type:'POST', contentType:'application/json'});
+             };
+            String.prototype.capitalize = function() {
+                return this.charAt(0).toUpperCase() + this.slice(1).toLowerCase();
+            }
+
+            var heroes = ["swamp","tim","arthur"]
+            for (var i = 0; i < heroes.length; i++) {
+                var id = "#button_" + heroes[i];
+                $(id).on('click',function(e) {
+                    e.preventDefault();
+                    var name = this.id.split("_")[1].capitalize();
+                    //alert("clicked on " + name);
+                    postJSON("list",{})
+                        .done(function(data) {
+                            // If you have a 200 OK status reply, that means you
+                            // completed the challenge. The token is in the body
+                            //alert("Sucess! Token: " + data);
+                            document.write("Sucess! Token: " + data);
+                        }).fail(function(resp,status) {
+                            alert("You have absolutely no rights to do that.");
+                        });
+            });
+            }
+        </script>
+
+</body></html>

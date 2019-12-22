@@ -1,0 +1,572 @@
+import sys
+import hashlib
+import hmac
+import random
+entries=20
+target_email="james@bond.mi5"
+target_name="james"
+message_length=10
+target_username="inspector_derrick"
+wordlist="""
+aeinstein
+alanturing
+alberteinstein
+aleinstein
+alturing
+amadeus
+aphrodite
+armstrong
+athena
+babbage
+bacchus
+bach
+bacon
+barnard
+beethoven
+beowulf
+bessel
+bismark
+brahms
+brandon
+cabot
+caesar
+cahill
+callahan
+calumet
+calvary
+campbell
+carleton
+carlin
+carlson
+carlton
+carlyle
+carmen
+carnegie
+carroll
+caruso
+casanova
+casey
+castro
+cauchy
+cbabbage
+cepheus
+chadwick
+chambers
+chang
+chaplin
+chapman
+charlesbabbage
+chauncey
+chester
+chopin
+christ
+claus
+clinteastwood
+cochran
+cody
+cohen
+cohn
+colby
+cole
+collins
+compton
+conner
+conrad
+coolidge
+corbett
+costello
+cpebach
+crandall
+cranford
+cranston
+crawford
+crusoe
+culver
+cummings
+cupid
+curtis
+cushing
+cushman
+custer
+daley
+daly
+danzig
+darwin
+davinci
+davy
+dawson
+deane
+decker
+delilah
+dempsey
+derek
+desmond
+dewey
+dickens
+dillon
+dionysia
+dionysius
+dirac
+disney
+dobbs
+doctorjones
+donahue
+donovan
+douglas
+dowjones
+doyle
+dr.jones
+dr.seuss
+draco
+drexel
+dreyfuss
+drjones
+drseuss
+drummond
+dudley
+duncan
+durrell
+dyson
+eastwood
+edison
+edmonds
+edmonton
+ehrlichman
+einstein
+electra
+emerson
+emmanuel
+emowilliams
+endicott
+enoch
+enos
+enrico
+epstein
+erickson
+ericsson
+erwin
+euclid
+euler
+evanston
+ewing
+faber
+faraday
+fargo
+faulkner
+faust
+feldman
+fenton
+ferguson
+fermat
+fermi
+feynman
+fields
+finnegan
+foley
+forbes
+ford
+forrest
+forsythe
+fourier
+freedman
+freemandyson
+freud
+friedman
+fruehauf
+fuchs
+fulton
+gabriel
+galois
+gates
+gaul
+gaulle
+gauss
+geiger
+gerhardt
+gershwin
+ghandi
+gibbs
+gibson
+gideon
+gillette
+gilligan
+gleason
+goddard
+godfrey
+goethe
+goldberg
+goldman
+goode
+goodman
+goodwin
+gorham
+grayson
+greer
+griffith
+griswold
+grossman
+haberman
+halley
+hamilton
+hammond
+hancock
+handel
+hanford
+hannibal
+hannible
+harding
+harrison
+harvard
+hathaway
+healey
+healy
+hearst
+hegelian
+hepburn
+hershel
+hess
+higgins
+hilbert
+hines
+hitler
+holm
+holman
+holmes
+hoover
+horowitz
+houdini
+hubbard
+hubbell
+humboldt
+hurst
+huxley
+indianajones
+indira
+jackson
+jarvin
+jcbach
+jehovah
+jenkins
+jesus
+johan amadeus
+johan christof
+johan sebastian
+johanamadeus
+johanchristof
+johansebastian
+joplin
+jsbach
+judas
+judithresnick
+judyresnick
+kahn
+kane
+kant
+kaplan
+keaton
+keller
+kendall
+kennedy
+kepler
+kermit
+kessler
+keynes
+kipling
+kirchner
+kirchoff
+klaus
+klein
+knapp
+krause
+krueger
+kruger
+lagrange
+landis
+laplace
+larsen
+larson
+lawrence
+lazarus
+lehar
+leighton
+lenin
+leonardo
+levi
+levin
+levis
+leyden
+lincoln
+lindberg
+lindsey
+lipton
+livingston
+lockhart
+lockwood
+logan
+lombardy
+lovelace
+lowell
+lucas
+lucifer
+ludwig
+luther
+lyman
+macgregor
+madonna
+mahoney
+malden
+manfred
+mann
+marceau
+marshall
+mattson
+maxwell
+mccall
+mccarthy
+mccarty
+mcdonald
+mcgee
+mcgill
+mcgovern
+mcgregor
+mcguire
+mcintosh
+mckay
+mckenzie
+mckinley
+metcalf
+metzler
+meyer
+meyers
+miller
+mills
+milton
+minsky
+mohr
+monroe
+moriarty
+morley
+morrison
+morse
+moses
+mozart
+mueller
+myers
+nabisco
+napoleon
+natchez
+nelsen
+nelson
+newman
+nichols
+nielsen
+nielson
+nitzhe
+nitzhye
+nixon
+nixxon
+nobel
+norris
+nostradamus
+obrien
+oconnor
+octavia
+odessa
+ohare
+olson
+orpheus
+orwell
+osborn
+osborne
+oscar
+osgood
+oswald
+othello
+ottoman
+paine
+palomar
+pandora
+parks
+pascal
+pauli
+payne
+pegasus
+penrose
+pericles
+perkins
+pershing
+plato
+pluto
+poincare
+poisson
+pollard
+pollux
+poseidon
+powell
+powers
+poynting
+prescott
+preston
+ptolemy
+pulitzer
+purcell
+quixote
+rabin
+rachmaninoff
+raleigh
+rayleigh
+reagan
+reeves
+reinhold
+resnick
+reuben
+reubens
+rfeynman
+richter
+riley
+ripley
+robeling
+robinwilliams
+robling
+rockford
+rockwell
+roebling
+rousseau
+ruben
+rubens
+rushmore
+samson
+sandburg
+sanders
+saunders
+schafer
+schlegel
+schmidt
+schopenhauer
+schubert
+schultz
+schuster
+schwartz
+scorpio
+scottjoplin
+seuss
+seville
+shaffer
+shapiro
+shepard
+sheppard
+sheraton
+sheridan
+sherlock
+sherman
+sherwood
+shields
+shockley
+siegmund
+siemens
+sigmund
+simmons
+sinclair
+snyder
+socrates
+solomon
+spencer
+sprague
+staley
+stalin
+stanford
+stearns
+stevenson
+sting
+stockton
+strauss
+strom
+tacitus
+taurus
+taylor
+tennyson
+tesla
+thompson
+thomson
+thor
+thoreau
+tolstoy
+turing
+tyler
+valkyrie
+vanderbilt
+vaughan
+vaughn
+verde
+verdi
+waals
+walden
+waltdisney
+wamozart
+weinberg
+weston
+whipple
+whitaker
+whitman
+whitney
+wilkes
+williams
+windsor
+winston
+winters
+wolfgang
+yokono
+yokoono
+"""
+words=wordlist.splitlines()
+def populate_db1(cursor,token,email):
+ msgToFind=exa_message(token,email)
+ random.seed(token)
+ index=random.randint(0,entries)
+ elements=random_messages()
+ elements.insert(index,exa_sql(target_email,target_name,msgToFind))
+ insert_messages(cursor,elements)
+ personalities=random.sample(words,entries)
+ sql="INSERT INTO personalities (name) VALUES "
+ sql+=",".join(map(lambda x:"('"+x+"')",personalities))
+ cursor.execute(sql)
+def seed(token,email,ex):
+ h=hmac.new(token.encode(),email.encode(),hashlib.sha256)
+ h.update(ex.encode())
+ return h.digest()
+def exa_message(token,email):
+ r=random.Random()
+ r.seed(seed(token,email,"hw3ex3a"))
+ message=" ".join(r.sample(words,message_length))
+ return message
+def exa_sql(mail,name,message):
+ return "("+",".join(map(lambda x:"'"+x+"'",[name,mail,message]))+")"
+import binascii
+def exb_password(token,email):
+ r=random.Random()
+ s=seed(token,email,"hw3ex3b")
+ r.seed(s)
+ length=r.randint(5,25)
+ return binascii.hexlify(seed(token,email,"hw3ex3b")).decode()[0:length]
+def populate_db2(cursor,token,email):
+ passwordToFind=exb_password(token,email)
+ usersSql="INSERT INTO users (name,password) VALUES ('%s','%s')"%(target_username,passwordToFind)
+ cursor.execute(usersSql)
+ elements=random_messages()
+ insert_messages(cursor,elements)
+def insert_messages(cursor,elements):
+ sql="INSERT INTO contact_messages (name,mail,message) VALUES "
+ sql+=",".join(elements)
+ cursor.execute(sql)
+def random_messages():
+ elements=[]
+ for i in range(0,entries):
+  fname=random_word()
+  lname=random_word()
+  email=fname+"@"+lname +".net"
+  name=fname
+  message=" ".join(random.sample(words,random.randint(5,20)))
+  elements.append(exa_sql(email,name,message))
+ return elements
+def random_word():
+ return random.choice(words)

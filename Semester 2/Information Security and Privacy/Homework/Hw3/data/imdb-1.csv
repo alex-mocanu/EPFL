@@ -1,0 +1,1266 @@
+email, movie, date, rating
+fatine.benhsain@epfl.ch, "Sunrise", 01/01/02, 3
+luca.joss@epfl.ch, "Bicycle Thieves", 01/01/03, 3
+floriane.gillieron@epfl.ch, "Casablanca", 01/01/04, 4
+cecile.trottet@epfl.ch, "Pulp Fiction", 01/01/05, 4
+guillaume.caviggia@epfl.ch, "On the Waterfront", 01/01/07, 4
+johan.lanzrein@epfl.ch, "The Third Man", 01/01/07, 3
+yoann.russello@epfl.ch, "Chinatown", 01/01/09, 5
+mykyta.shulga@epfl.ch, "All About Eve", 01/01/09, 2
+siyuan.li@epfl.ch, "One Flew Over the Cuckoo's Nest", 01/01/11, 5
+alexander.holloway@epfl.ch, "Taxi Driver", 01/01/12, 5
+ahmed.ozkalay@epfl.ch, "Goodfellas", 01/01/13, 5
+rodrigo.soaresgranja@epfl.ch, "Chinatown", 01/02/16, 2
+t.nguyen@epfl.ch, "12 Angry Men", 01/03/05, 2
+jean-pierre.hubaux@epfl.ch, "M", 01/04/01, 4
+eleonora.rocchi@epfl.ch, "The Godfather: Part II", 01/04/02, 4
+bogdan.kulynych@epfl.ch, "Lawrence of Arabia", 01/04/14, 2
+alexis.dewaele@epfl.ch, "Tokyo Story", 01/05/03, 4
+maxime.pisa@epfl.ch, "Singin' in the Rain", 01/05/04, 2
+aurelien.chaline@epfl.ch, "Once Upon a Time in the West", 01/06/00, 5
+alexandre.carlier@epfl.ch, "Sunset Blvd.", 01/06/03, 4
+walid.bennaceur@epfl.ch, "Chinatown", 01/06/05, 5
+valentin.hartmann@epfl.ch, "City Lights", 01/06/10, 3
+johan.lanzrein@epfl.ch, "Raging Bull", 01/06/13, 3
+Noe.Zufferey@unil.ch, "Modern Times", 01/06/13, 1
+alexandre.chambet@epfl.ch, "The Good, the Bad and the Ugly", 01/06/15, 2
+david.salathe@epfl.ch, "The Dark Knight", 01/06/15, 3
+martin.milenkoski@epfl.ch, "Pulp Fiction", 01/07/00, 1
+pierre.oechsel@epfl.ch, "Casablanca", 01/07/02, 1
+carmela.troncoso@epfl.ch, "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb", 01/07/12, 1
+sabrina.kall@epfl.ch, "Star Wars: Episode V - The Empire Strikes Back", 01/07/16, 5
+samuel.edlervonbaussnern@epfl.ch, "Chinatown", 01/08/00, 2
+wanhao.zhou@epfl.ch, "Casablanca", 01/08/03, 1
+sacha.kozma@epfl.ch, "Star Wars: Episode V - The Empire Strikes Back", 01/08/04, 3
+kopiga.rasiah@epfl.ch, "Schindler's List", 01/08/07, 5
+louis.landelle@epfl.ch, "Chinatown", 01/08/12, 5
+stevan.ognjanovic@epfl.ch, "The Wages of Fear", 01/09/02, 1
+paul.rolland@epfl.ch, "Sunrise", 01/09/12, 4
+yawen.hou@epfl.ch, "Once Upon a Time in the West", 01/09/15, 2
+wanhao.zhou@epfl.ch, "Bicycle Thieves", 01/09/16, 1
+sinem.sav@epfl.ch, "The Shawshank Redemption", 01/10/01, 2
+benno.schneeberger@epfl.ch, "The Night of the Hunter", 01/10/02, 3
+pavlo.karalupov@epfl.ch, "The Good, the Bad and the Ugly", 01/10/07, 1
+cristina.basescu@epfl.ch, "City Lights", 01/10/08, 3
+carmela.troncoso@epfl.ch, "Star Wars: Episode V - The Empire Strikes Back", 01/10/08, 3
+maxime.lemarignier@epfl.ch, "All About Eve", 01/10/16, 3
+bendik.standal@epfl.ch, "The Godfather: Part II", 01/11/01, 4
+vincent.rinaldi@epfl.ch, "The Wages of Fear", 01/11/04, 2
+aurelien.chaline@epfl.ch, "It's a Wonderful Life", 01/11/06, 3
+jiafan.liu@epfl.ch, "Apocalypse Now", 01/11/09, 3
+futong.liu@epfl.ch, "Chinatown", 01/11/13, 3
+loic.nguyen@epfl.ch, "The Night of the Hunter", 01/11/14, 3
+marion.letilly@epfl.ch, "Lawrence of Arabia", 01/12/14, 3
+hugo.aguettaz@epfl.ch, "North by Northwest", 01/12/15, 1
+loic.serafin@epfl.ch, "Apocalypse Now", 02/01/02, 1
+redouane.elghazi@epfl.ch, "Sunset Blvd.", 02/01/08, 1
+gunes.yurdakul@epfl.ch, "Casablanca", 02/01/09, 3
+lois.bilat@epfl.ch, "Chinatown", 02/01/12, 3
+adrian.guerra@epfl.ch, "The Wages of Fear", 02/01/12, 3
+valentin.borgeaud@epfl.ch, "Star Wars: Episode V - The Empire Strikes Back", 02/01/13, 5
+maxime.lemarignier@epfl.ch, "Chinatown", 02/02/03, 4
+farnood.salehi@epfl.ch, "On the Waterfront", 02/02/07, 2
+hector.izquierdofernandez@epfl.ch, "Tokyo Story", 02/02/08, 2
+thibaud.perret@epfl.ch, "Sunset Blvd.", 02/02/09, 4
+lukas.gelbmann@epfl.ch, "Chinatown", 02/02/15, 5
+mathieu.ducroux@epfl.ch, "Double Indemnity", 02/03/00, 5
+irene.petlacalcobarrios@epfl.ch, "Once Upon a Time in the West", 02/03/04, 5
+amandine.evard@epfl.ch, "City Lights", 02/03/08, 5
+samuel.edlervonbaussnern@epfl.ch, "Vertigo", 02/03/09, 4
+adrien.prost@epfl.ch, "All About Eve", 02/04/04, 2
+nikita.filippov@epfl.ch, "Spirited Away", 02/04/05, 5
+benoit.juif@epfl.ch, "The Third Man", 02/04/05, 2
+yoann.russello@epfl.ch, "Casablanca", 02/04/07, 5
+david.desobry@epfl.ch, "Star Wars: Episode V - The Empire Strikes Back", 02/04/08, 4
+jonas.jaggi@epfl.ch, "Chinatown", 02/04/08, 3
+thanuditha.wickramasinghe@epfl.ch, "The Night of the Hunter", 02/04/09, 2
+ilija.gjorgjiev@epfl.ch, "Once Upon a Time in the West", 02/05/01, 5
+alex.ferragni@epfl.ch, "Schindler's List", 02/05/14, 4
+philippe.oechslin@epfl.ch, "Apocalypse Now", 02/05/16, 2
+loic.nguyen@epfl.ch, "The Dark Knight", 02/06/04, 5
+carlos.medinatemme@epfl.ch, "Ikiru", 02/06/06, 2
+mahammad.shirinov@epfl.ch, "The Dark Knight", 02/07/00, 2
+sami.benhassen@epfl.ch, "Casablanca", 02/07/01, 1
+vincent.cabrini@epfl.ch, "Double Indemnity", 02/07/05, 3
+augustin.matter@epfl.ch, "Once Upon a Time in the West", 02/07/10, 3
+udaranga.wickramasinghe@epfl.ch, "Taxi Driver", 02/07/15, 5
+frederic.bischoff@epfl.ch, "Seven Samurai", 02/07/16, 1
+carlos.medinatemme@epfl.ch, "The Godfather", 02/08/00, 4
+udaranga.wickramasinghe@epfl.ch, "Lawrence of Arabia", 02/08/04, 2
+adrien.prost@epfl.ch, "M", 02/08/07, 4
+alexis.mermet@epfl.ch, "The Night of the Hunter", 02/08/08, 2
+alexander.holloway@epfl.ch, "Bicycle Thieves", 02/09/06, 1
+robin.berguerand@epfl.ch, "Once Upon a Time in the West", 02/09/11, 4
+walid.bennaceur@epfl.ch, "Modern Times", 02/09/16, 1
+vincent.rinaldi@epfl.ch, "Rear Window", 02/10/10, 3
+mathias.goncalves@epfl.ch, "Modern Times", 02/10/11, 3
+samarth.jain@epfl.ch, "Taxi Driver", 02/10/15, 4
+vincent.coriou@epfl.ch, "City Lights", 02/10/16, 5
+regis.croset@epfl.ch, "Sunset Blvd.", 02/10/16, 2
+stevan.ognjanovic@epfl.ch, "City Lights", 02/11/06, 3
+louis.landelle@epfl.ch, "Metropolis", 02/12/08, 1
+simon.lebail-collet@epfl.ch, "Apocalypse Now", 02/12/15, 4
+thanuditha.wickramasinghe@epfl.ch, "The Third Man", 03/01/00, 1
+quentin.fisch@epfl.ch, "12 Angry Men", 03/01/01, 3
+thevie.mortiniera@epfl.ch, "The Godfather", 03/01/05, 3
+walid.bennaceur@epfl.ch, "Metropolis", 03/01/07, 4
+guillaume.vizier@epfl.ch, "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb", 03/01/07, 5
+david.darocharodrigues@epfl.ch, "The Shawshank Redemption", 03/01/14, 1
+rodrigo.soaresgranja@epfl.ch, "Raiders of the Lost Ark", 03/01/15, 4
+lionel.pellier@epfl.ch, "The Godfather: Part II", 03/02/01, 3
+fatine.benhsain@epfl.ch, "Fanny and Alexander", 03/02/04, 1
+firas.kanoun@epfl.ch, "The Shawshank Redemption", 03/02/06, 1
+bjorn.gudmundsson@epfl.ch, "Lawrence of Arabia", 03/03/03, 3
+can.altinigne@epfl.ch, "The Third Man", 03/03/09, 1
+regis.croset@epfl.ch, "Once Upon a Time in the West", 03/03/14, 3
+ahmed.ozkalay@epfl.ch, "2001: A Space Odyssey", 03/03/15, 2
+loic.droz@epfl.ch, "City Lights", 03/04/03, 4
+mahammad.shirinov@epfl.ch, "Schindler's List", 03/04/06, 3
+amandine.evard@epfl.ch, "Citizen Kane", 03/04/08, 4
+mathias.goncalves@epfl.ch, "Goodfellas", 03/04/13, 5
+tiago.kieliger@epfl.ch, "Pulp Fiction", 03/04/15, 3
+daniel.smarda@epfl.ch, "The Dark Knight", 03/05/14, 4
+alexandre.chau@epfl.ch, "Chinatown", 03/06/00, 2
+taehyun.lee@epfl.ch, "It's a Wonderful Life", 03/06/09, 3
+carlos.medinatemme@epfl.ch, "Metropolis", 03/06/11, 4
+raphael.teboul@epfl.ch, "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb", 03/06/11, 5
+frederic.myotte@epfl.ch, "The Dark Knight", 03/06/13, 3
+zhechen.su@epfl.ch, "The Godfather: Part II", 03/06/16, 3
+martin.milenkoski@epfl.ch, "The Good, the Bad and the Ugly", 03/07/02, 2
+vincent.cabrini@epfl.ch, "The Good, the Bad and the Ugly", 03/07/03, 5
+boying.liu@epfl.ch, "The Shawshank Redemption", 03/07/16, 5
+pietro.carta@epfl.ch, "Spirited Away", 03/08/06, 3
+redouane.elghazi@epfl.ch, "Once Upon a Time in the West", 03/08/06, 5
+davor.todorovski@epfl.ch, "Citizen Kane", 03/08/16, 1
+mykyta.shulga@epfl.ch, "Citizen Kane", 03/09/01, 5
+alexander.johansen@epfl.ch, "Rear Window", 03/09/02, 3
+alexandru.mocanu@epfl.ch, "The Shawshank Redemption", 03/09/07, 2
+bogdan.kulynych@epfl.ch, "Raging Bull", 03/09/12, 3
+igor.zablotchi@epfl.ch, "Goodfellas", 03/09/13, 4
+oriol.barbanymayor@epfl.ch, "The Wages of Fear", 03/10/05, 3
+louis-nicolas.douce@epfl.ch, "Schindler's List", 03/10/15, 1
+manuel.faysse@epfl.ch, "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb", 03/11/03, 4
+yusi.zou@epfl.ch, "Raging Bull", 03/11/10, 1
+taehyun.lee@epfl.ch, "Fanny and Alexander", 03/11/11, 2
+arnaud.garin@epfl.ch, "M", 03/11/16, 5
+alexandru.mocanu@epfl.ch, "Modern Times", 03/12/02, 1
+pierre.thevenet@epfl.ch, "Vertigo", 03/12/08, 1
+bruno.wicht@epfl.ch, "Modern Times", 03/12/09, 5
+rodrigo.soaresgranja@epfl.ch, "Singin' in the Rain", 04/01/01, 2
+loic.nguyen@epfl.ch, "Metropolis", 04/01/13, 3
+redouane.elghazi@epfl.ch, "12 Angry Men", 04/02/13, 5
+david.desobry@epfl.ch, "The 400 Blows", 04/03/08, 4
+erdem.bocugoz@epfl.ch, "Goodfellas", 04/04/00, 2
+pedro.torresdacunha@epfl.ch, "Fanny and Alexander", 04/04/02, 1
+davor.todorovski@epfl.ch, "Singin' in the Rain", 04/04/08, 4
+emiel.huyghe@epfl.ch, "Citizen Kane", 04/04/12, 5
+nourchene.benromdhane@epfl.ch, "North by Northwest", 04/04/14, 4
+ahmed.ahres@epfl.ch, "Schindler's List", 04/04/16, 5
+alexandre.chau@epfl.ch, "Star Wars: Episode V - The Empire Strikes Back", 04/05/10, 4
+maxime.hulliger@epfl.ch, "Rashomon", 04/06/04, 1
+pierre.oechsel@epfl.ch, "Star Wars: Episode IV - A New Hope", 04/06/05, 3
+valentin.borgeaud@epfl.ch, "Metropolis", 04/06/16, 4
+theo.nikles@epfl.ch, "Citizen Kane", 04/07/09, 2
+p.gabioud@epfl.ch, "Chinatown", 04/07/10, 3
+oriol.barbanymayor@epfl.ch, "Sunset Blvd.", 04/07/11, 3
+matthieu.bovel@epfl.ch, "The Shawshank Redemption", 04/07/11, 4
+luca.joss@epfl.ch, "Paths of Glory", 04/07/11, 1
+andrea.piccione@epfl.ch, "Citizen Kane", 04/07/11, 2
+carmela.troncoso@epfl.ch, "Vertigo", 04/07/11, 1
+niroshan.vijayarasa@epfl.ch, "The Godfather", 04/07/15, 5
+pierre.thevenet@epfl.ch, "Taxi Driver", 04/08/11, 3
+timothy.trovatelli@epfl.ch, "The Good, the Bad and the Ugly", 04/08/12, 4
+can.altinigne@epfl.ch, "Fanny and Alexander", 04/08/16, 5
+liangwei.chen@epfl.ch, "Sunrise", 04/09/01, 5
+roberto.terceros@outlook.com, "Raging Bull", 04/09/01, 1
+thibaud.perret@epfl.ch, "Ikiru", 04/09/02, 4
+paul.rolland@epfl.ch, "The Shawshank Redemption", 04/09/13, 1
+elias.poromawiri@epfl.ch, "Sunrise", 04/10/00, 2
+sabrina.kall@epfl.ch, "Sunrise", 04/10/04, 3
+stephanie.lebrun@epfl.ch, "Citizen Kane", 04/10/11, 4
+davor.todorovski@epfl.ch, "The Night of the Hunter", 04/11/03, 1
+serif.serbest@epfl.ch, "Raiders of the Lost Ark", 04/11/10, 2
+floriane.gillieron@epfl.ch, "City Lights", 04/11/12, 5
+xavier.pantet@epfl.ch, "Psycho", 04/11/15, 4
+zhechen.su@epfl.ch, "Sunset Blvd.", 04/12/12, 5
+mykyta.shulga@epfl.ch, "City Lights", 04/12/13, 5
+jelena.banjac@epfl.ch, "City Lights", 04/12/15, 2
+marc.anhoury@epfl.ch, "Lawrence of Arabia", 05/01/01, 5
+diana.petrescu@epfl.ch, "2001: A Space Odyssey", 05/01/02, 2
+mohammed-ismail.bensalah@epfl.ch, "Seven Samurai", 05/01/03, 4
+robin.leurent@epfl.ch, "Lawrence of Arabia", 05/01/05, 5
+igor.zablotchi@epfl.ch, "The Dark Knight", 05/01/13, 3
+ilkan.kilic@epfl.ch, "Star Wars: Episode V - The Empire Strikes Back", 05/02/01, 4
+robin.berguerand@epfl.ch, "Tokyo Story", 05/02/09, 4
+keshav.singh@epfl.ch, "Raiders of the Lost Ark", 05/02/10, 3
+robin.leurent@epfl.ch, "Raging Bull", 05/02/11, 1
+dino.mujkic@epfl.ch, "Tokyo Story", 05/03/08, 5
+marion.letilly@epfl.ch, "It's a Wonderful Life", 05/04/00, 4
+natalia.nessler@epfl.ch, "Vertigo", 05/04/00, 1
+cosmin.rusu@epfl.ch, "Paths of Glory", 05/04/04, 3
+bryan.abate@epfl.ch, "Casablanca", 05/04/06, 5
+pierre.oechsel@epfl.ch, "Fanny and Alexander", 05/05/00, 2
+zeineb.sahnoun@epfl.ch, "The Wages of Fear", 05/05/11, 4
+lukas.gelbmann@epfl.ch, "Apocalypse Now", 05/06/02, 2
+xavier.pantet@epfl.ch, "Apocalypse Now", 05/06/03, 2
+benoit.juif@epfl.ch, "Apocalypse Now", 05/06/04, 3
+valentin.meylan@epfl.ch, "Sunset Blvd.", 05/06/05, 5
+charles.coster@epfl.ch, "Modern Times", 05/06/14, 1
+shichao.jia@epfl.ch, "Raging Bull", 05/07/00, 3
+sinem.sav@epfl.ch, "Raiders of the Lost Ark", 05/07/01, 3
+alexis.mermet@epfl.ch, "Modern Times", 05/07/09, 5
+arnaud.boissaye@epfl.ch, "Chinatown", 05/07/12, 2
+alexis.mermet@epfl.ch, "The Shawshank Redemption", 05/07/13, 2
+mykyta.shulga@epfl.ch, "Sunrise", 05/07/15, 2
+philippe.oechslin@epfl.ch, "Casablanca", 05/08/09, 5
+omar.boujdaria@epfl.ch, "Spirited Away", 05/08/10, 3
+erdem.bocugoz@epfl.ch, "Casablanca", 05/08/11, 4
+nikita.filippov@epfl.ch, "The Night of the Hunter", 05/09/02, 3
+justinas.sukaitis@epfl.ch, "Sunset Blvd.", 05/09/05, 3
+lukas.gelbmann@epfl.ch, "M", 05/09/06, 2
+etienne.bonvin@epfl.ch, "Fanny and Alexander", 05/09/07, 3
+daniel.smarda@epfl.ch, "City Lights", 05/09/07, 4
+guillaume.michel@epfl.ch, "City Lights", 05/09/08, 4
+pietro.carta@epfl.ch, "North by Northwest", 05/09/13, 4
+niroshan.vijayarasa@epfl.ch, "Star Wars: Episode V - The Empire Strikes Back", 05/10/00, 2
+timur.lavrov@epfl.ch, "Once Upon a Time in the West", 05/10/01, 2
+thibaud.perret@epfl.ch, "Citizen Kane", 05/10/16, 4
+hector.izquierdofernandez@epfl.ch, "Star Wars: Episode V - The Empire Strikes Back", 05/11/07, 1
+robin.berguerand@epfl.ch, "The Night of the Hunter", 05/11/09, 3
+arnaud.duvieusart@epfl.ch, "Schindler's List", 05/11/12, 1
+oriol.barbanymayor@epfl.ch, "12 Angry Men", 05/12/11, 3
+adrien.prost@epfl.ch, "2001: A Space Odyssey", 05/12/11, 3
+carlos.medinatemme@epfl.ch, "One Flew Over the Cuckoo's Nest", 05/12/15, 5
+maxime.voituriez@epfl.ch, "Star Wars: Episode IV - A New Hope", 05/12/15, 2
+sabrina.kall@epfl.ch, "Citizen Kane", 06/02/03, 5
+elias.poromawiri@epfl.ch, "M", 06/02/03, 3
+hector.izquierdofernandez@epfl.ch, "Fanny and Alexander", 06/02/05, 2
+irene.petlacalcobarrios@epfl.ch, "The 400 Blows", 06/02/15, 4
+guillaume.vizier@epfl.ch, "Star Wars: Episode V - The Empire Strikes Back", 06/02/15, 5
+yueran.liang@epfl.ch, "12 Angry Men", 06/03/01, 1
+pedro.torresdacunha@epfl.ch, "Double Indemnity", 06/03/03, 4
+marc.bickel@epfl.ch, "Star Wars: Episode V - The Empire Strikes Back", 06/03/08, 1
+arnaud.boissaye@epfl.ch, "Bicycle Thieves", 06/03/16, 4
+francis.damachi@epfl.ch, "Citizen Kane", 06/04/00, 1
+dino.mujkic@epfl.ch, "Spirited Away", 06/04/03, 3
+alexis.dewaele@epfl.ch, "The Godfather: Part II", 06/04/10, 3
+alix.jeannerot@epfl.ch, "Casablanca", 06/05/10, 5
+loic.serafin@epfl.ch, "Pulp Fiction", 06/06/05, 3
+sofia.kypraiou@epfl.ch, "Sunset Blvd.", 06/06/06, 4
+justine.weber@epfl.ch, "On the Waterfront", 06/06/08, 3
+mohammed-ismail.bensalah@epfl.ch, "Rear Window", 06/06/11, 5
+stevan.ognjanovic@epfl.ch, "Rear Window", 06/07/05, 2
+natalia.nessler@epfl.ch, "The Wages of Fear", 06/07/06, 1
+ahmet.atalik@epfl.ch, "Taxi Driver", 06/07/13, 2
+paul.rolland@epfl.ch, "Sunset Blvd.", 06/08/11, 1
+aleksei.kashuba@epfl.ch, "Apocalypse Now", 06/08/14, 4
+riccardo.conti@epfl.ch, "Ikiru", 06/08/15, 5
+matthieu.baud@epfl.ch, "Taxi Driver", 06/08/16, 2
+fouad.mazen@epfl.ch, "Double Indemnity", 06/09/08, 1
+fatine.benhsain@epfl.ch, "Spirited Away", 06/09/11, 5
+radu.martin@epfl.ch, "Goodfellas", 06/09/14, 5
+yann.vonlanthen@epfl.ch, "One Flew Over the Cuckoo's Nest", 06/10/10, 3
+sacha.leblanc@epfl.ch, "Rashomon", 06/10/14, 4
+romain.liautaud@epfl.ch, "Apocalypse Now", 06/10/15, 3
+liangwei.chen@epfl.ch, "Raging Bull", 06/11/01, 5
+samuel.edlervonbaussnern@epfl.ch, "Once Upon a Time in the West", 06/11/03, 2
+romain.liautaud@epfl.ch, "Fanny and Alexander", 06/11/05, 3
+mathilde.raynal@epfl.ch, "City Lights", 06/11/09, 5
+francis.damachi@epfl.ch, "Lawrence of Arabia", 06/12/02, 5
+ayyoub.elamrani@epfl.ch, "The Godfather", 06/12/05, 2
+marc.anhoury@epfl.ch, "Double Indemnity", 06/12/08, 1
+damian.dudzicz@epfl.ch, "Lawrence of Arabia", 06/12/08, 2
+jonathan.scanzi@epfl.ch, "The Good, the Bad and the Ugly", 06/12/11, 1
+yueran.liang@epfl.ch, "On the Waterfront", 07/01/02, 2
+kamil.lesiak@epfl.ch, "City Lights", 07/01/06, 5
+tiago.kieliger@epfl.ch, "12 Angry Men", 07/01/10, 3
+david.desobry@epfl.ch, "Chinatown", 07/01/16, 4
+aslam.cader@epfl.ch, "Sunrise", 07/02/05, 3
+ivan.yurov@epfl.ch, "Vertigo", 07/02/12, 3
+valentin.hartmann@epfl.ch, "Ikiru", 07/03/01, 5
+liana.mehrabyan@epfl.ch, "Seven Samurai", 07/03/03, 2
+daniel.smarda@epfl.ch, "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb", 07/03/06, 1
+maiken.berthelsen@epfl.ch, "Modern Times", 07/03/11, 2
+sofia.kypraiou@epfl.ch, "One Flew Over the Cuckoo's Nest", 07/03/11, 1
+siyuan.li@epfl.ch, "The Night of the Hunter", 07/03/14, 2
+sylvain.chatel@epfl.ch, "Chinatown", 07/04/06, 1
+ali.elabridi@epfl.ch, "Singin' in the Rain", 07/04/06, 2
+boying.liu@epfl.ch, "2001: A Space Odyssey", 07/04/09, 1
+clement.burgelin@epfl.ch, "One Flew Over the Cuckoo's Nest", 07/04/11, 3
+julien.heitmann@epfl.ch, "Raging Bull", 07/04/13, 5
+etienne.bonvin@epfl.ch, "The Night of the Hunter", 07/05/04, 1
+jonas.jaggi@epfl.ch, "Goodfellas", 07/05/05, 5
+matthieu.buotdelepine@epfl.ch, "Double Indemnity", 07/05/07, 2
+julien.vonfelten@epfl.ch, "One Flew Over the Cuckoo's Nest", 07/05/10, 4
+jonathan.scanzi@epfl.ch, "Schindler's List", 07/05/11, 3
+aurelien.chaline@epfl.ch, "The Dark Knight", 07/06/01, 1
+fengyu.cai@epfl.ch, "The 400 Blows", 07/06/12, 4
+francis.damachi@epfl.ch, "It's a Wonderful Life", 07/07/08, 1
+cosmin.rusu@epfl.ch, "The Shawshank Redemption", 07/07/09, 1
+alexander.johansen@epfl.ch, "The Godfather: Part II", 07/07/10, 2
+lkham.nyambuu@epfl.ch, "Fanny and Alexander", 07/08/03, 4
+david.darocharodrigues@epfl.ch, "Bicycle Thieves", 07/08/06, 3
+timur.lavrov@epfl.ch, "The 400 Blows", 07/08/07, 2
+murat.topak@epfl.ch, "2001: A Space Odyssey", 07/08/08, 1
+remi.coudert@epfl.ch, "Rear Window", 07/08/15, 3
+jonathan.regef@epfl.ch, "The 400 Blows", 07/09/05, 4
+joachim.desroches@epfl.ch, "Psycho", 07/09/06, 4
+romain.jufer@epfl.ch, "Modern Times", 07/09/13, 3
+david.darocharodrigues@epfl.ch, "The Third Man", 07/10/02, 1
+radu.martin@epfl.ch, "Seven Samurai", 07/10/07, 3
+elie.daou@epfl.ch, "Vertigo", 07/10/11, 1
+dewmini.marakkalage@epfl.ch, "Bicycle Thieves", 07/11/03, 1
+martin.chatton@epfl.ch, "Rear Window", 07/11/10, 3
+regis.croset@epfl.ch, "Lawrence of Arabia", 07/12/15, 2
+enguerrand.granoux@epfl.ch, "Taxi Driver", 07/12/15, 3
+pablo.pfister@epfl.ch, "Once Upon a Time in the West", 08/01/00, 2
+jeanne.fleury@epfl.ch, "2001: A Space Odyssey", 08/01/01, 2
+marshall.cooper@epfl.ch, "Paths of Glory", 08/01/03, 3
+pavlo.karalupov@epfl.ch, "Ikiru", 08/01/11, 3
+mike.bardet@epfl.ch, "Sunrise", 08/02/02, 2
+thibaud.perret@epfl.ch, "Star Wars: Episode IV - A New Hope", 08/02/07, 5
+omar.boujdaria@epfl.ch, "Rear Window", 08/02/09, 5
+raphael.teboul@epfl.ch, "Star Wars: Episode V - The Empire Strikes Back", 08/03/00, 4
+farnood.salehi@epfl.ch, "Seven Samurai", 08/04/08, 1
+riccardo.conti@epfl.ch, "The 400 Blows", 08/04/09, 1
+zeineb.sahnoun@epfl.ch, "Psycho", 08/04/10, 2
+matthieu.buotdelepine@epfl.ch, "The Night of the Hunter", 08/04/13, 2
+asli.yorusun@epfl.ch, "Double Indemnity", 08/04/14, 1
+marc.anhoury@epfl.ch, "The Godfather", 08/05/14, 4
+erdem.bocugoz@epfl.ch, "Vertigo", 08/06/04, 5
+louis.landelle@epfl.ch, "Citizen Kane", 08/06/05, 3
+hugo.aguettaz@epfl.ch, "City Lights", 08/06/08, 3
+romain.mendez@epfl.ch, "2001: A Space Odyssey", 08/06/08, 2
+alexander.holloway@epfl.ch, "Fanny and Alexander", 08/06/09, 3
+ali.alami-idrissi@epfl.ch, "Once Upon a Time in the West", 08/06/14, 3
+nikita.filippov@epfl.ch, "Tokyo Story", 08/06/16, 5
+bjorn.gudmundsson@epfl.ch, "Metropolis", 08/06/16, 2
+yusi.zou@epfl.ch, "All About Eve", 08/07/06, 5
+edouard.ghaleb@epfl.ch, "Schindler's List", 08/07/07, 4
+mike.bardet@epfl.ch, "The Wages of Fear", 08/07/08, 3
+edouard.ghaleb@epfl.ch, "The Godfather: Part II", 08/07/09, 5
+tiago.kieliger@epfl.ch, "All About Eve", 08/07/10, 3
+elias.poromawiri@epfl.ch, "2001: A Space Odyssey", 08/07/11, 2
+guillaume.vizier@epfl.ch, "Sunset Blvd.", 08/07/13, 3
+shichao.jia@epfl.ch, "Apocalypse Now", 08/08/14, 4
+maxime.voituriez@epfl.ch, "North by Northwest", 08/09/07, 1
+cedric.maire@epfl.ch, "Goodfellas", 08/10/00, 5
+natalia.nessler@epfl.ch, "The Godfather", 08/10/05, 3
+fares.ahmed@epfl.ch, "Ikiru", 08/10/07, 3
+vincent.coriou@epfl.ch, "Modern Times", 08/10/14, 1
+paul.rolland@epfl.ch, "Psycho", 08/10/15, 2
+loic.droz@epfl.ch, "The 400 Blows", 08/11/02, 2
+pierre.oechsel@epfl.ch, "The 400 Blows", 08/11/02, 3
+theo.nikles@epfl.ch, "Chinatown", 08/11/12, 1
+asli.yorusun@epfl.ch, "Lawrence of Arabia", 08/11/16, 4
+ilkan.kilic@epfl.ch, "Paths of Glory", 08/12/06, 2
+wan-tzu.huang@epfl.ch, "Double Indemnity", 08/12/12, 4
+maklewa.harena@epfl.ch, "Double Indemnity", 08/12/14, 1
+mathieu.ducroux@epfl.ch, "Modern Times", 08/12/15, 3
+roberto.terceros@outlook.com, "One Flew Over the Cuckoo's Nest", 09/01/06, 2
+delphine.peter@epfl.ch, "Double Indemnity", 09/01/09, 2
+caroline.violot@epfl.ch, "Raging Bull", 09/02/00, 2
+sacha.kozma@epfl.ch, "Once Upon a Time in the West", 09/02/02, 4
+nicolas.jeitziner@epfl.ch, "Raiders of the Lost Ark", 09/02/05, 1
+alix.jeannerot@epfl.ch, "One Flew Over the Cuckoo's Nest", 09/02/10, 5
+caroline.violot@epfl.ch, "North by Northwest", 09/03/00, 5
+maxime.pisa@epfl.ch, "Goodfellas", 09/03/02, 3
+lionel.constantin@epfl.ch, "Psycho", 09/03/03, 5
+murat.topak@epfl.ch, "Fanny and Alexander", 09/03/05, 5
+sylvain.chatel@epfl.ch, "On the Waterfront", 09/03/07, 3
+thevie.mortiniera@epfl.ch, "Raiders of the Lost Ark", 09/03/10, 5
+hugo.roussel@epfl.ch, "Pulp Fiction", 09/04/07, 2
+siyuan.li@epfl.ch, "City Lights", 09/04/09, 3
+oriol.barbanymayor@epfl.ch, "Modern Times", 09/04/15, 2
+eleonora.rocchi@epfl.ch, "Sunset Blvd.", 09/05/03, 2
+justine.weber@epfl.ch, "Psycho", 09/05/04, 4
+arnaud.garin@epfl.ch, "Rashomon", 09/05/11, 3
+romain.caristan@epfl.ch, "Casablanca", 09/06/11, 5
+boying.liu@epfl.ch, "M", 09/06/11, 5
+ayyoub.elamrani@epfl.ch, "Goodfellas", 09/06/16, 2
+gregoire.hirt@epfl.ch, "Tokyo Story", 09/06/16, 2
+fares.ahmed@epfl.ch, "The 400 Blows", 09/07/01, 3
+quentin.fisch@epfl.ch, "The Wages of Fear", 09/07/08, 5
+hedi.driss@epfl.ch, "North by Northwest", 09/07/13, 5
+riccardo.conti@epfl.ch, "Singin' in the Rain", 09/07/14, 4
+bjorn.gudmundsson@epfl.ch, "Citizen Kane", 09/08/03, 1
+frederic.myotte@epfl.ch, "One Flew Over the Cuckoo's Nest", 09/08/09, 4
+kopiga.rasiah@epfl.ch, "Lawrence of Arabia", 09/09/09, 2
+pierre.oechsel@epfl.ch, "Spirited Away", 09/11/09, 5
+diego.iriartesainz@epfl.ch, "Lawrence of Arabia", 09/12/03, 5
+ilkan.kilic@epfl.ch, "Metropolis", 09/12/06, 2
+rodrigo.soaresgranja@epfl.ch, "The Third Man", 09/12/08, 5
+hugo.roussel@epfl.ch, "Lawrence of Arabia", 10/01/08, 5
+arnaud.garin@epfl.ch, "2001: A Space Odyssey", 10/01/15, 3
+valentin.hartmann@epfl.ch, "Psycho", 10/02/00, 4
+augustin.matter@epfl.ch, "The Shawshank Redemption", 10/02/01, 1
+luca.joss@epfl.ch, "M", 10/02/02, 1
+jonas.jaggi@epfl.ch, "Schindler's List", 10/02/09, 1
+guillaume.michel@epfl.ch, "The Dark Knight", 10/02/10, 1
+germain.zouein@epfl.ch, "Spirited Away", 10/02/11, 2
+stevan.ognjanovic@epfl.ch, "The Shawshank Redemption", 10/02/13, 4
+diana.petrescu@epfl.ch, "Chinatown", 10/03/07, 2
+yueran.liang@epfl.ch, "Psycho", 10/03/13, 4
+wanhao.zhou@epfl.ch, "The Third Man", 10/04/12, 1
+mohamed.ndoye@epfl.ch, "Rashomon", 10/04/15, 5
+serif.serbest@epfl.ch, "Apocalypse Now", 10/05/01, 3
+stephen.zhao@epfl.ch, "M", 10/05/04, 1
+louis.landelle@epfl.ch, "Star Wars: Episode V - The Empire Strikes Back", 10/05/11, 3
+philippe.oechslin@epfl.ch, "Psycho", 10/05/13, 4
+jorn.hofstad@epfl.ch, "On the Waterfront", 10/06/02, 4
+maiken.berthelsen@epfl.ch, "Citizen Kane", 10/06/07, 3
+damian.dudzicz@epfl.ch, "All About Eve", 10/06/08, 4
+lionel.pellier@epfl.ch, "It's a Wonderful Life", 10/07/03, 4
+arnaud.duvieusart@epfl.ch, "The Wages of Fear", 10/07/07, 3
+t.nguyen@epfl.ch, "Seven Samurai", 10/07/14, 5
+frederic.bischoff@epfl.ch, "Casablanca", 10/07/15, 5
+cristina.basescu@epfl.ch, "Ikiru", 10/08/02, 5
+timur.lavrov@epfl.ch, "Rear Window", 10/08/04, 1
+ahmet.atalik@epfl.ch, "Star Wars: Episode V - The Empire Strikes Back", 10/08/09, 3
+kamil.lesiak@epfl.ch, "2001: A Space Odyssey", 10/08/10, 1
+frederic.bischoff@epfl.ch, "Spirited Away", 10/08/11, 2
+matthieu.baud@epfl.ch, "Spirited Away", 10/08/14, 1
+sabrina.kall@epfl.ch, "Raiders of the Lost Ark", 10/08/14, 1
+clement.burgelin@epfl.ch, "The Third Man", 10/08/16, 4
+p.gabioud@epfl.ch, "Ikiru", 10/10/05, 2
+caroline.violot@epfl.ch, "Modern Times", 10/10/14, 2
+natalia.gullonaltes@epfl.ch, "The Dark Knight", 10/11/00, 3
+mike.bardet@epfl.ch, "Raiders of the Lost Ark", 10/11/05, 2
+damian.dudzicz@epfl.ch, "The Dark Knight", 10/11/06, 2
+ahmed.ahres@epfl.ch, "The Wages of Fear", 10/11/12, 1
+germain.zouein@epfl.ch, "Rear Window", 10/11/13, 3
+marshall.cooper@epfl.ch, "Goodfellas", 10/11/14, 1
+david.resin@epfl.ch, "It's a Wonderful Life", 10/11/15, 1
+asli.yorusun@epfl.ch, "Singin' in the Rain", 10/12/00, 5
+jeanne.fleury@epfl.ch, "North by Northwest", 10/12/01, 1
+manuel.cherep@epfl.ch, "North by Northwest", 10/12/02, 5
+pietro.carta@epfl.ch, "The Godfather: Part II", 10/12/10, 3
+alexander.holloway@epfl.ch, "The Third Man", 10/12/12, 5
+enguerrand.granoux@epfl.ch, "The Dark Knight", 10/12/15, 3
+martin.chatton@epfl.ch, "Psycho", 11/01/00, 2
+mohamed.ndoye@epfl.ch, "Spirited Away", 11/01/00, 4
+lukas.gelbmann@epfl.ch, "Modern Times", 11/01/01, 1
+nicolas.jeitziner@epfl.ch, "Paths of Glory", 11/01/06, 3
+mohammed-ismail.bensalah@epfl.ch, "Apocalypse Now", 11/01/12, 2
+david.resin@epfl.ch, "Singin' in the Rain", 11/01/12, 5
+nikita.filippov@epfl.ch, "The Third Man", 11/02/01, 5
+sinem.sav@epfl.ch, "The Godfather: Part II", 11/02/01, 3
+shichao.jia@epfl.ch, "Pulp Fiction", 11/02/09, 1
+guillaume.michel@epfl.ch, "Bicycle Thieves", 11/03/07, 1
+ali.fessi@epfl.ch, "Modern Times", 11/03/11, 2
+matthieu.baud@epfl.ch, "Metropolis", 11/03/13, 4
+irene.petlacalcobarrios@epfl.ch, "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb", 11/03/14, 5
+keshav.singh@epfl.ch, "North by Northwest", 11/03/15, 2
+sandra.siby@epfl.ch, "The Wages of Fear", 11/04/00, 4
+jonathan.scanzi@epfl.ch, "Rear Window", 11/04/10, 4
+loic.serafin@epfl.ch, "The Night of the Hunter", 11/04/11, 4
+ilija.gjorgjiev@epfl.ch, "North by Northwest", 11/04/14, 5
+siyuan.li@epfl.ch, "The Godfather", 11/05/04, 5
+su.li@epfl.ch, "The Shawshank Redemption", 11/05/11, 5
+pedro.torresdacunha@epfl.ch, "The Dark Knight", 11/06/11, 5
+sandra.siby@epfl.ch, "Double Indemnity", 11/07/03, 5
+julien.heitmann@epfl.ch, "Paths of Glory", 11/07/05, 1
+shichao.jia@epfl.ch, "All About Eve", 11/08/00, 2
+sacha.leblanc@epfl.ch, "Lawrence of Arabia", 11/08/02, 4
+martin.chatton@epfl.ch, "Singin' in the Rain", 11/08/03, 1
+amandine.evard@epfl.ch, "Metropolis", 11/08/05, 2
+su.li@epfl.ch, "Singin' in the Rain", 11/08/06, 2
+raphael.teboul@epfl.ch, "Psycho", 11/08/07, 1
+quentin.fisch@epfl.ch, "Bicycle Thieves", 11/08/08, 4
+jannik.reichert@epfl.ch, "On the Waterfront", 11/08/16, 4
+jonathan.donz@epfl.ch, "Raiders of the Lost Ark", 11/09/01, 5
+jiafan.liu@epfl.ch, "Taxi Driver", 11/09/02, 3
+keshav.singh@epfl.ch, "Psycho", 11/09/04, 2
+lkham.nyambuu@epfl.ch, "Bicycle Thieves", 11/09/05, 2
+walid.bennaceur@epfl.ch, "The Shawshank Redemption", 11/09/13, 2
+gregoire.clement@epfl.ch, "Goodfellas", 11/10/00, 4
+valentin.meylan@epfl.ch, "Tokyo Story", 11/10/02, 5
+jean-pierre.hubaux@epfl.ch, "On the Waterfront", 11/10/05, 2
+ahmed.ozkalay@epfl.ch, "Sunset Blvd.", 11/10/06, 3
+firas.kanoun@epfl.ch, "Goodfellas", 11/11/08, 4
+raphael.teboul@epfl.ch, "Rashomon", 11/11/08, 1
+yawen.hou@epfl.ch, "Tokyo Story", 11/11/12, 5
+jonathan.donz@epfl.ch, "Double Indemnity", 11/12/04, 3
+ali.alami-idrissi@epfl.ch, "Modern Times", 11/12/05, 1
+cedric.maire@epfl.ch, "The Godfather", 11/12/05, 5
+johan.lanzrein@epfl.ch, "City Lights", 11/12/12, 4
+carlos.medinatemme@epfl.ch, "Sunrise", 11/12/15, 5
+ilija.gjorgjiev@epfl.ch, "Vertigo", 12/01/06, 2
+manuel.faysse@epfl.ch, "Lawrence of Arabia", 12/01/11, 4
+ayyoub.elamrani@epfl.ch, "Citizen Kane", 12/02/04, 5
+timothee-florian.bronner@epfl.ch, "Bicycle Thieves", 12/02/09, 3
+cristina.basescu@epfl.ch, "Star Wars: Episode IV - A New Hope", 12/02/10, 3
+delphine.peter@epfl.ch, "2001: A Space Odyssey", 12/02/14, 2
+natalia.gullonaltes@epfl.ch, "Schindler's List", 12/03/00, 4
+liana.mehrabyan@epfl.ch, "2001: A Space Odyssey", 12/03/01, 3
+valentin.hartmann@epfl.ch, "The Shawshank Redemption", 12/03/07, 2
+david.salathe@epfl.ch, "Apocalypse Now", 12/03/07, 4
+zhechen.su@epfl.ch, "Raiders of the Lost Ark", 12/03/10, 1
+vincent.rinaldi@epfl.ch, "Lawrence of Arabia", 12/03/12, 4
+cedric.maire@epfl.ch, "Singin' in the Rain", 12/03/14, 4
+zeineb.sahnoun@epfl.ch, "Star Wars: Episode V - The Empire Strikes Back", 12/04/07, 1
+isabel.tharigen@epfl.ch, "Casablanca", 12/04/10, 5
+simon.roquette@epfl.ch, "Sunset Blvd.", 12/04/12, 4
+martin.vold@epfl.ch, "Seven Samurai", 12/05/00, 3
+cecile.trottet@epfl.ch, "2001: A Space Odyssey", 12/05/07, 2
+augustin.matter@epfl.ch, "The Dark Knight", 12/06/11, 3
+jelena.banjac@epfl.ch, "The Night of the Hunter", 12/07/09, 5
+damian.dudzicz@epfl.ch, "Apocalypse Now", 12/07/10, 5
+aleksei.kashuba@epfl.ch, "The Wages of Fear", 12/07/15, 2
+irina.kozlova@epfl.ch, "Lawrence of Arabia", 12/08/04, 5
+timur.lavrov@epfl.ch, "The Godfather: Part II", 12/08/15, 4
+liana.mehrabyan@epfl.ch, "Schindler's List", 12/08/15, 5
+Noe.Zufferey@unil.ch, "2001: A Space Odyssey", 12/09/03, 2
+taehyun.lee@epfl.ch, "Chinatown", 12/09/08, 1
+bruno.wicht@epfl.ch, "Rashomon", 12/09/08, 1
+vincent.cabrini@epfl.ch, "City Lights", 12/09/13, 3
+paul.rolland@epfl.ch, "Seven Samurai", 12/09/14, 5
+ali.fessi@epfl.ch, "The Godfather: Part II", 12/10/11, 1
+ali.elabridi@epfl.ch, "Tokyo Story", 12/10/12, 1
+ahmed.ahres@epfl.ch, "The 400 Blows", 12/10/16, 1
+pablo.pfister@epfl.ch, "Psycho", 12/11/03, 4
+marco.abrate@epfl.ch, "Taxi Driver", 12/11/13, 4
+elliott.bertrand@epfl.ch, "The Godfather: Part II", 12/11/13, 5
+pietro.carta@epfl.ch, "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb", 12/12/09, 2
+erdem.bocugoz@epfl.ch, "It's a Wonderful Life", 12/12/12, 3
+jonathan.regef@epfl.ch, "Ikiru", 12/12/13, 1
+stephen.zhao@epfl.ch, "The Good, the Bad and the Ugly", 13/01/00, 2
+germain.zouein@epfl.ch, "The Dark Knight", 13/01/08, 2
+sacha.leblanc@epfl.ch, "The Dark Knight", 13/02/03, 5
+alix.jeannerot@epfl.ch, "Taxi Driver", 13/03/00, 4
+romain.jufer@epfl.ch, "Once Upon a Time in the West", 13/03/02, 2
+alexandre.carlier@epfl.ch, "North by Northwest", 13/03/04, 3
+bryan.abate@epfl.ch, "The Godfather: Part II", 13/03/07, 4
+adrian.guerra@epfl.ch, "Star Wars: Episode IV - A New Hope", 13/03/12, 1
+jean-pierre.hubaux@epfl.ch, "Lawrence of Arabia", 13/03/14, 1
+marco.abrate@epfl.ch, "The Shawshank Redemption", 13/03/16, 2
+hedi.driss@epfl.ch, "Seven Samurai", 13/03/16, 4
+udaranga.wickramasinghe@epfl.ch, "Tokyo Story", 13/04/03, 4
+ahmad.hazimeh@epfl.ch, "The Godfather", 13/04/05, 1
+frederic.myotte@epfl.ch, "M", 13/04/05, 5
+michal.pleskowicz@epfl.ch, "Vertigo", 13/04/12, 3
+bjorn.gudmundsson@epfl.ch, "City Lights", 13/05/08, 5
+lois.bilat@epfl.ch, "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb", 13/05/12, 5
+ali.alami-idrissi@epfl.ch, "Fanny and Alexander", 13/06/06, 3
+manana.lortkipanidze@epfl.ch, "12 Angry Men", 13/06/06, 1
+julien.heitmann@epfl.ch, "On the Waterfront", 13/06/15, 2
+samarth.jain@epfl.ch, "The Dark Knight", 13/07/00, 2
+su.li@epfl.ch, "The Dark Knight", 13/07/01, 3
+valerian.rey@epfl.ch, "Tokyo Story", 13/07/09, 2
+pavlo.karalupov@epfl.ch, "Paths of Glory", 13/08/13, 3
+shichao.jia@epfl.ch, "City Lights", 13/09/14, 5
+futong.liu@epfl.ch, "Double Indemnity", 13/10/06, 1
+roberto.terceros@outlook.com, "Double Indemnity", 13/10/10, 3
+marc.bickel@epfl.ch, "Casablanca", 13/12/06, 5
+jeanne.chaverot@epfl.ch, "The Shawshank Redemption", 13/12/15, 5
+cristina.basescu@epfl.ch, "Apocalypse Now", 14/01/03, 4
+orcun.gumus@epfl.ch, "Star Wars: Episode IV - A New Hope", 14/01/04, 1
+ali.elabridi@epfl.ch, "Casablanca", 14/01/10, 2
+tiago.kieliger@epfl.ch, "M", 14/01/16, 2
+maiken.berthelsen@epfl.ch, "Paths of Glory", 14/02/13, 3
+enguerrand.granoux@epfl.ch, "Raging Bull", 14/02/13, 5
+elias.poromawiri@epfl.ch, "Raging Bull", 14/02/15, 4
+marion.letilly@epfl.ch, "Citizen Kane", 14/02/16, 4
+christoph.ungricht@epfl.ch, "Taxi Driver", 14/03/00, 3
+ivan.yurov@epfl.ch, "The Godfather", 14/03/03, 2
+marshall.cooper@epfl.ch, "Once Upon a Time in the West", 14/03/06, 5
+matthieu.baud@epfl.ch, "North by Northwest", 14/05/12, 3
+alexandru.mocanu@epfl.ch, "The Third Man", 14/05/12, 5
+dewmini.marakkalage@epfl.ch, "Psycho", 14/06/03, 5
+pavlo.karalupov@epfl.ch, "Citizen Kane", 14/06/07, 3
+marshall.cooper@epfl.ch, "Sunrise", 14/06/08, 1
+frederic.bischoff@epfl.ch, "Apocalypse Now", 14/06/11, 4
+ivan.yurov@epfl.ch, "Paths of Glory", 14/06/13, 2
+arnaud.boissaye@epfl.ch, "North by Northwest", 14/06/14, 2
+diego.iriartesainz@epfl.ch, "Seven Samurai", 14/07/01, 1
+martin.vold@epfl.ch, "Pulp Fiction", 14/07/11, 1
+elliott.bertrand@epfl.ch, "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb", 14/07/16, 4
+boying.liu@epfl.ch, "The 400 Blows", 14/08/03, 1
+marco.abrate@epfl.ch, "Fanny and Alexander", 14/08/09, 3
+sylvain.chatel@epfl.ch, "M", 14/08/10, 4
+pablo.pfister@epfl.ch, "Sunset Blvd.", 14/09/00, 1
+justinas.sukaitis@epfl.ch, "The 400 Blows", 14/09/04, 5
+jiafan.liu@epfl.ch, "Metropolis", 14/09/15, 2
+rayan.daodnathoo@epfl.ch, "Chinatown", 14/11/04, 3
+can.altinigne@epfl.ch, "City Lights", 14/11/13, 3
+matthieu.bovel@epfl.ch, "Apocalypse Now", 14/11/15, 2
+hugo.roussel@epfl.ch, "12 Angry Men", 14/12/01, 1
+alexandre.chambet@epfl.ch, "Sunset Blvd.", 14/12/03, 4
+omar.boujdaria@epfl.ch, "North by Northwest", 14/12/13, 3
+pavlo.karalupov@epfl.ch, "Goodfellas", 15/01/09, 3
+igor.zablotchi@epfl.ch, "M", 15/01/14, 1
+louis-nicolas.douce@epfl.ch, "Apocalypse Now", 15/02/16, 4
+alex.ferragni@epfl.ch, "Singin' in the Rain", 15/03/03, 5
+romain.liautaud@epfl.ch, "Paths of Glory", 15/03/04, 2
+maklewa.harena@epfl.ch, "Metropolis", 15/03/06, 4
+marshall.cooper@epfl.ch, "Modern Times", 15/03/12, 3
+nicolas.jeitziner@epfl.ch, "Vertigo", 15/03/14, 1
+aslam.cader@epfl.ch, "Star Wars: Episode IV - A New Hope", 15/04/03, 1
+romain.jufer@epfl.ch, "12 Angry Men", 15/04/04, 5
+daniel.smarda@epfl.ch, "Double Indemnity", 15/04/04, 4
+p.gabioud@epfl.ch, "Casablanca", 15/04/15, 1
+manuel.cherep@epfl.ch, "All About Eve", 15/04/16, 3
+irina.kozlova@epfl.ch, "It's a Wonderful Life", 15/05/02, 4
+benjamin.deleze@epfl.ch, "North by Northwest", 15/05/03, 4
+benjamin.deleze@epfl.ch, "On the Waterfront", 15/05/03, 5
+p.gabioud@epfl.ch, "Star Wars: Episode V - The Empire Strikes Back", 15/05/05, 5
+gregoire.hirt@epfl.ch, "Paths of Glory", 15/05/08, 5
+diana.petrescu@epfl.ch, "Rashomon", 15/05/11, 5
+bendik.standal@epfl.ch, "The Night of the Hunter", 15/05/12, 1
+benno.schneeberger@epfl.ch, "Pulp Fiction", 15/05/15, 3
+isabelle.pumford@epfl.ch, "The Good, the Bad and the Ugly", 15/06/04, 5
+yann.vonlanthen@epfl.ch, "Rear Window", 15/06/04, 3
+matthieu.bovel@epfl.ch, "North by Northwest", 15/06/12, 3
+mohammed-ismail.bensalah@epfl.ch, "Pulp Fiction", 15/07/08, 3
+ali.fessi@epfl.ch, "Raiders of the Lost Ark", 15/07/08, 4
+maxime.hulliger@epfl.ch, "Citizen Kane", 15/07/09, 4
+joona.soratie@epfl.ch, "The Shawshank Redemption", 15/07/15, 2
+edouard.ghaleb@epfl.ch, "Metropolis", 15/08/01, 5
+andrea.piccione@epfl.ch, "Star Wars: Episode V - The Empire Strikes Back", 15/08/07, 4
+manuel.cherep@epfl.ch, "Raiders of the Lost Ark", 15/08/11, 5
+can.altinigne@epfl.ch, "Goodfellas", 15/08/16, 4
+keshav.singh@epfl.ch, "Raging Bull", 15/09/03, 5
+diana.petrescu@epfl.ch, "Taxi Driver", 15/09/10, 1
+valerian.rey@epfl.ch, "The Godfather: Part II", 15/09/10, 4
+alexandre.chau@epfl.ch, "On the Waterfront", 15/09/11, 1
+sinem.sav@epfl.ch, "Lawrence of Arabia", 15/10/07, 5
+nourchene.benromdhane@epfl.ch, "Bicycle Thieves", 15/10/14, 2
+thevie.mortiniera@epfl.ch, "It's a Wonderful Life", 15/10/16, 2
+andres.monterocassab@epfl.ch, "Pulp Fiction", 15/11/07, 1
+julien.vonfelten@epfl.ch, "City Lights", 15/12/10, 2
+mathias.goncalves@epfl.ch, "The Dark Knight", 15/12/14, 5
+yusi.zou@epfl.ch, "Star Wars: Episode V - The Empire Strikes Back", 16/01/02, 2
+jonathan.regef@epfl.ch, "Psycho", 16/01/06, 2
+ahmed.ahres@epfl.ch, "12 Angry Men", 16/01/09, 1
+elie.daou@epfl.ch, "It's a Wonderful Life", 16/01/16, 4
+cecile.trottet@epfl.ch, "Metropolis", 16/02/02, 3
+augustin.matter@epfl.ch, "Citizen Kane", 16/02/08, 3
+lionel.constantin@epfl.ch, "The Wages of Fear", 16/02/15, 4
+igor.zablotchi@epfl.ch, "It's a Wonderful Life", 16/03/00, 5
+samarth.jain@epfl.ch, "The Night of the Hunter", 16/03/01, 1
+andrea.piccione@epfl.ch, "Seven Samurai", 16/03/06, 4
+cecile.trottet@epfl.ch, "Raiders of the Lost Ark", 16/03/07, 5
+bogdan.kulynych@epfl.ch, "Taxi Driver", 16/03/14, 1
+louis.landelle@epfl.ch, "Rear Window", 16/04/02, 2
+maxime.voituriez@epfl.ch, "The 400 Blows", 16/04/04, 1
+mykyta.shulga@epfl.ch, "Lawrence of Arabia", 16/04/10, 2
+oriol.barbanymayor@epfl.ch, "Sunrise", 16/05/00, 5
+fouad.mazen@epfl.ch, "Bicycle Thieves", 16/05/01, 2
+joachim.desroches@epfl.ch, "Metropolis", 16/05/03, 1
+damian.dudzicz@epfl.ch, "Once Upon a Time in the West", 16/05/07, 3
+alex.ferragni@epfl.ch, "Ikiru", 16/05/10, 4
+michal.pleskowicz@epfl.ch, "Psycho", 16/05/12, 1
+gregoire.clement@epfl.ch, "Schindler's List", 16/06/01, 2
+michal.pleskowicz@epfl.ch, "The Wages of Fear", 16/06/01, 5
+nihal.yuceturk@epfl.ch, "Raging Bull", 16/06/02, 2
+benjamin.deleze@epfl.ch, "Lawrence of Arabia", 16/06/04, 1
+maxime.pisa@epfl.ch, "Star Wars: Episode IV - A New Hope", 16/06/06, 1
+fengyu.cai@epfl.ch, "Vertigo", 16/06/13, 3
+remi.coudert@epfl.ch, "Raging Bull", 16/06/14, 3
+eleonora.rocchi@epfl.ch, "The Shawshank Redemption", 16/06/14, 4
+cedric.maire@epfl.ch, "On the Waterfront", 16/07/02, 4
+Noe.Zufferey@unil.ch, "The Wages of Fear", 16/07/09, 3
+benoit.juif@epfl.ch, "Citizen Kane", 16/07/13, 4
+Noe.Zufferey@unil.ch, "Citizen Kane", 16/08/09, 5
+dorian.laforest@epfl.ch, "All About Eve", 16/08/11, 1
+adrien.prost@epfl.ch, "Spirited Away", 16/08/14, 3
+timothy.trovatelli@epfl.ch, "It's a Wonderful Life", 16/09/01, 5
+ayyoub.elamrani@epfl.ch, "Singin' in the Rain", 16/09/03, 4
+bryan.abate@epfl.ch, "All About Eve", 16/09/06, 1
+jonathan.scanzi@epfl.ch, "Metropolis", 16/09/16, 5
+remi.coudert@epfl.ch, "Singin' in the Rain", 16/10/04, 1
+jonathan.regef@epfl.ch, "It's a Wonderful Life", 16/10/08, 1
+alexandre.chambet@epfl.ch, "Ikiru", 16/10/09, 4
+natalia.nessler@epfl.ch, "Seven Samurai", 16/10/12, 2
+stephen.zhao@epfl.ch, "The Third Man", 16/10/13, 1
+aleksei.kashuba@epfl.ch, "Fanny and Alexander", 16/11/01, 5
+timothy.trovatelli@epfl.ch, "On the Waterfront", 16/11/10, 2
+wan-tzu.huang@epfl.ch, "Citizen Kane", 16/11/15, 3
+raphael.teboul@epfl.ch, "Sunrise", 16/12/02, 5
+amandine.evard@epfl.ch, "Once Upon a Time in the West", 16/12/10, 2
+ahmet.atalik@epfl.ch, "The Good, the Bad and the Ugly", 16/12/12, 5
+siyuan.li@epfl.ch, "Taxi Driver", 16/12/12, 2
+kamil.lesiak@epfl.ch, "Star Wars: Episode IV - A New Hope", 16/12/13, 3
+diana.petrescu@epfl.ch, "Tokyo Story", 16/12/13, 4
+dorian.laforest@epfl.ch, "Spirited Away", 16/12/16, 5
+t.nguyen@epfl.ch, "Double Indemnity", 17/01/05, 4
+loic.droz@epfl.ch, "Star Wars: Episode V - The Empire Strikes Back", 17/01/06, 4
+pedro.torresdacunha@epfl.ch, "North by Northwest", 17/01/13, 5
+dewmini.marakkalage@epfl.ch, "Goodfellas", 17/01/15, 2
+lkham.nyambuu@epfl.ch, "The Godfather", 17/02/03, 1
+manana.lortkipanidze@epfl.ch, "Chinatown", 17/02/11, 4
+mathieu.ducroux@epfl.ch, "The Night of the Hunter", 17/02/12, 2
+alexis.mermet@epfl.ch, "Fanny and Alexander", 17/03/04, 3
+omar.boujdaria@epfl.ch, "Paths of Glory", 17/03/05, 1
+thevie.mortiniera@epfl.ch, "The Night of the Hunter", 17/03/15, 1
+rayan.daodnathoo@epfl.ch, "It's a Wonderful Life", 17/04/02, 3
+sabrina.kall@epfl.ch, "Sunset Blvd.", 17/04/06, 3
+isabel.tharigen@epfl.ch, "Paths of Glory", 17/04/12, 3
+ilija.gjorgjiev@epfl.ch, "City Lights", 17/05/06, 1
+bendik.standal@epfl.ch, "Schindler's List", 17/05/15, 4
+vincent.coriou@epfl.ch, "The Wages of Fear", 17/06/02, 4
+maiken.berthelsen@epfl.ch, "Sunrise", 17/06/03, 2
+emiel.huyghe@epfl.ch, "The 400 Blows", 17/06/04, 5
+pierre.thevenet@epfl.ch, "Raging Bull", 17/06/05, 2
+mohammed-ismail.bensalah@epfl.ch, "The Good, the Bad and the Ugly", 17/06/15, 2
+taehyun.lee@epfl.ch, "One Flew Over the Cuckoo's Nest", 17/07/05, 4
+vincent.coriou@epfl.ch, "The Third Man", 17/07/07, 2
+aurelien.chaline@epfl.ch, "Raging Bull", 17/07/12, 4
+samarth.jain@epfl.ch, "Spirited Away", 17/07/15, 3
+guillaume.michel@epfl.ch, "Vertigo", 17/08/01, 2
+emiel.huyghe@epfl.ch, "Modern Times", 17/08/06, 3
+aleksei.kashuba@epfl.ch, "Chinatown", 17/08/07, 5
+thanuditha.wickramasinghe@epfl.ch, "Tokyo Story", 17/08/10, 1
+mathias.goncalves@epfl.ch, "The Third Man", 17/08/11, 4
+germain.zouein@epfl.ch, "Raging Bull", 17/08/11, 2
+hugo.roussel@epfl.ch, "The Wages of Fear", 17/09/04, 3
+christoph.ungricht@epfl.ch, "Bicycle Thieves", 17/09/06, 5
+robin.leurent@epfl.ch, "12 Angry Men", 17/09/12, 5
+marc.bickel@epfl.ch, "Star Wars: Episode IV - A New Hope", 17/09/15, 5
+alix.jeannerot@epfl.ch, "Fanny and Alexander", 17/09/16, 5
+riccardo.conti@epfl.ch, "All About Eve", 17/10/06, 3
+irina.kozlova@epfl.ch, "2001: A Space Odyssey", 17/10/15, 4
+bjorn.gudmundsson@epfl.ch, "The Wages of Fear", 17/11/00, 4
+alexandru.mocanu@epfl.ch, "One Flew Over the Cuckoo's Nest", 17/11/01, 3
+hugo.aguettaz@epfl.ch, "The Shawshank Redemption", 17/11/14, 1
+yoann.russello@epfl.ch, "Star Wars: Episode IV - A New Hope", 17/12/00, 1
+pierre.thevenet@epfl.ch, "Modern Times", 17/12/08, 1
+valentin.meylan@epfl.ch, "One Flew Over the Cuckoo's Nest", 17/12/09, 5
+sofia.giampietro@epfl.ch, "Sunset Blvd.", 17/12/12, 3
+bryan.abate@epfl.ch, "On the Waterfront", 18/01/01, 2
+samarth.jain@epfl.ch, "The Good, the Bad and the Ugly", 18/01/01, 4
+rodrigo.soaresgranja@epfl.ch, "Spirited Away", 18/01/11, 2
+stephanie.lebrun@epfl.ch, "Chinatown", 18/01/13, 2
+maxime.hulliger@epfl.ch, "Metropolis", 18/02/03, 4
+sofia.giampietro@epfl.ch, "Star Wars: Episode V - The Empire Strikes Back", 18/02/10, 2
+philippe.oechslin@epfl.ch, "Bicycle Thieves", 18/02/12, 1
+sacha.leblanc@epfl.ch, "Double Indemnity", 18/03/01, 1
+maxime.lemarignier@epfl.ch, "On the Waterfront", 18/03/02, 2
+romain.caristan@epfl.ch, "Schindler's List", 18/03/07, 5
+joona.soratie@epfl.ch, "Ikiru", 18/04/01, 4
+enguerrand.granoux@epfl.ch, "The Wages of Fear", 18/04/04, 3
+adrian.guerra@epfl.ch, "City Lights", 18/04/10, 4
+diego.iriartesainz@epfl.ch, "The Third Man", 18/04/15, 3
+jonas.jaggi@epfl.ch, "The Night of the Hunter", 18/04/15, 3
+simon.lebail-collet@epfl.ch, "Double Indemnity", 18/04/16, 5
+clement.burgelin@epfl.ch, "All About Eve", 18/05/00, 1
+futong.liu@epfl.ch, "Seven Samurai", 18/05/01, 2
+pablo.pfister@epfl.ch, "Raiders of the Lost Ark", 18/05/11, 1
+martin.milenkoski@epfl.ch, "Tokyo Story", 18/06/02, 1
+orcun.gumus@epfl.ch, "Psycho", 18/06/03, 1
+quentin.fisch@epfl.ch, "North by Northwest", 18/06/04, 1
+timothee-florian.bronner@epfl.ch, "Double Indemnity", 18/06/06, 1
+mathieu.ducroux@epfl.ch, "Once Upon a Time in the West", 18/06/11, 2
+ahmed.ozkalay@epfl.ch, "It's a Wonderful Life", 18/06/11, 5
+manuel.cherep@epfl.ch, "Double Indemnity", 18/06/15, 1
+philippe.oechslin@epfl.ch, "Goodfellas", 18/07/02, 5
+murat.topak@epfl.ch, "The Godfather", 18/07/04, 1
+yueran.liang@epfl.ch, "The Night of the Hunter", 18/07/07, 3
+david.resin@epfl.ch, "Citizen Kane", 18/07/12, 4
+jannik.reichert@epfl.ch, "Sunset Blvd.", 18/08/06, 3
+wanhao.zhou@epfl.ch, "The Godfather: Part II", 18/08/10, 1
+murat.topak@epfl.ch, "Ikiru", 18/08/13, 1
+marion.letilly@epfl.ch, "Metropolis", 18/09/03, 5
+francis.damachi@epfl.ch, "Apocalypse Now", 18/09/04, 5
+jeanne.fleury@epfl.ch, "Sunrise", 18/09/07, 1
+jiafan.liu@epfl.ch, "North by Northwest", 18/09/09, 5
+gregoire.hirt@epfl.ch, "Ikiru", 18/09/11, 1
+andrea.piccione@epfl.ch, "Sunset Blvd.", 18/10/04, 5
+cosmin.rusu@epfl.ch, "Casablanca", 18/10/09, 2
+remi.coudert@epfl.ch, "The Godfather: Part II", 18/10/15, 2
+sofia.giampietro@epfl.ch, "Apocalypse Now", 18/11/00, 1
+cecile.trottet@epfl.ch, "Casablanca", 18/11/02, 1
+radu.martin@epfl.ch, "Chinatown", 18/11/03, 5
+louis-nicolas.douce@epfl.ch, "Sunset Blvd.", 18/11/09, 2
+lionel.constantin@epfl.ch, "One Flew Over the Cuckoo's Nest", 18/11/10, 4
+dino.mujkic@epfl.ch, "The Wages of Fear", 18/11/11, 3
+taehyun.lee@epfl.ch, "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb", 18/12/05, 5
+sami.benhassen@epfl.ch, "Seven Samurai", 18/12/11, 5
+isabelle.pumford@epfl.ch, "The Shawshank Redemption", 19/01/08, 5
+martin.vold@epfl.ch, "12 Angry Men", 19/01/14, 3
+maiken.berthelsen@epfl.ch, "Schindler's List", 19/01/16, 4
+charles.coster@epfl.ch, "Goodfellas", 19/03/04, 4
+elliott.bertrand@epfl.ch, "Modern Times", 19/03/11, 5
+jonathan.donz@epfl.ch, "It's a Wonderful Life", 19/03/12, 4
+lkham.nyambuu@epfl.ch, "Modern Times", 19/03/14, 4
+tiago.kieliger@epfl.ch, "Vertigo", 19/04/07, 5
+ahmad.hazimeh@epfl.ch, "On the Waterfront", 19/04/12, 5
+maklewa.harena@epfl.ch, "Once Upon a Time in the West", 19/04/13, 5
+mike.bardet@epfl.ch, "Vertigo", 19/04/16, 3
+manana.lortkipanidze@epfl.ch, "City Lights", 19/05/05, 3
+sofia.kypraiou@epfl.ch, "The Dark Knight", 19/05/12, 3
+david.resin@epfl.ch, "Chinatown", 19/06/02, 5
+alexandre.chambet@epfl.ch, "Seven Samurai", 19/06/08, 1
+timothee-florian.bronner@epfl.ch, "Casablanca", 19/07/05, 3
+jelena.banjac@epfl.ch, "Pulp Fiction", 19/07/07, 2
+natalia.nessler@epfl.ch, "Apocalypse Now", 19/07/09, 5
+orcun.gumus@epfl.ch, "Rear Window", 19/07/10, 2
+etienne.bonvin@epfl.ch, "Raiders of the Lost Ark", 19/07/12, 3
+hugo.roussel@epfl.ch, "Double Indemnity", 19/07/12, 2
+rayan.daodnathoo@epfl.ch, "The 400 Blows", 19/07/15, 4
+louis-nicolas.douce@epfl.ch, "Ikiru", 19/07/15, 1
+eleonora.rocchi@epfl.ch, "Modern Times", 19/08/04, 4
+dewmini.marakkalage@epfl.ch, "Raging Bull", 19/08/06, 1
+thevie.mortiniera@epfl.ch, "The Wages of Fear", 19/08/13, 1
+carmela.troncoso@epfl.ch, "Double Indemnity", 19/08/14, 3
+valentin.borgeaud@epfl.ch, "The Shawshank Redemption", 19/09/02, 1
+sofia.kypraiou@epfl.ch, "The Night of the Hunter", 19/09/10, 3
+simon.lebail-collet@epfl.ch, "City Lights", 19/09/12, 2
+mahammad.shirinov@epfl.ch, "It's a Wonderful Life", 19/09/16, 3
+yusi.zou@epfl.ch, "Sunrise", 19/10/02, 2
+isabel.tharigen@epfl.ch, "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb", 19/10/05, 4
+arnaud.garin@epfl.ch, "Modern Times", 19/10/11, 5
+jannik.reichert@epfl.ch, "Citizen Kane", 19/10/13, 5
+asli.yorusun@epfl.ch, "All About Eve", 19/10/13, 1
+redouane.elghazi@epfl.ch, "Lawrence of Arabia", 19/11/00, 3
+walid.bennaceur@epfl.ch, "12 Angry Men", 19/11/05, 1
+vincent.cabrini@epfl.ch, "Tokyo Story", 19/11/10, 5
+martin.milenkoski@epfl.ch, "The Night of the Hunter", 19/11/13, 5
+maxime.pisa@epfl.ch, "Schindler's List", 19/11/13, 4
+arnaud.duvieusart@epfl.ch, "Bicycle Thieves", 19/12/03, 1
+riccardo.conti@epfl.ch, "The Third Man", 19/12/09, 3
+amandine.evard@epfl.ch, "The 400 Blows", 19/12/09, 1
+lois.bilat@epfl.ch, "The 400 Blows", 19/12/12, 1
+ali.elabridi@epfl.ch, "Paths of Glory", 20/01/11, 2
+ali.alami-idrissi@epfl.ch, "M", 20/02/06, 4
+joachim.desroches@epfl.ch, "Singin' in the Rain", 20/03/10, 2
+augustin.matter@epfl.ch, "Raging Bull", 20/03/10, 2
+diego.iriartesainz@epfl.ch, "Sunrise", 20/03/12, 5
+guillaume.caviggia@epfl.ch, "2001: A Space Odyssey", 20/04/08, 2
+fouad.mazen@epfl.ch, "The Godfather", 20/04/15, 2
+futong.liu@epfl.ch, "Psycho", 20/04/15, 5
+yann.vonlanthen@epfl.ch, "Lawrence of Arabia", 20/06/03, 3
+farnood.salehi@epfl.ch, "Taxi Driver", 20/06/04, 2
+adrien.prost@epfl.ch, "Modern Times", 20/06/05, 2
+liana.mehrabyan@epfl.ch, "Double Indemnity", 20/06/07, 5
+jorn.hofstad@epfl.ch, "Sunset Blvd.", 20/06/10, 4
+isabelle.pumford@epfl.ch, "Goodfellas", 20/06/10, 1
+sandra.siby@epfl.ch, "12 Angry Men", 20/06/14, 3
+emiel.huyghe@epfl.ch, "Once Upon a Time in the West", 20/07/04, 3
+simon.roquette@epfl.ch, "The Shawshank Redemption", 20/08/03, 4
+dino.mujkic@epfl.ch, "M", 20/08/07, 1
+gunes.yurdakul@epfl.ch, "Apocalypse Now", 20/08/09, 5
+yoann.russello@epfl.ch, "Rashomon", 20/08/10, 4
+lionel.pellier@epfl.ch, "Psycho", 20/09/04, 1
+dewmini.marakkalage@epfl.ch, "North by Northwest", 20/09/16, 4
+valentin.borgeaud@epfl.ch, "Modern Times", 20/10/00, 4
+guillaume.caviggia@epfl.ch, "Once Upon a Time in the West", 20/10/04, 2
+sofia.giampietro@epfl.ch, "Rear Window", 20/10/11, 2
+jeanne.fleury@epfl.ch, "The Godfather", 20/10/13, 2
+loic.serafin@epfl.ch, "Double Indemnity", 20/10/15, 2
+luca.joss@epfl.ch, "Psycho", 20/10/16, 4
+kopiga.rasiah@epfl.ch, "Tokyo Story", 20/11/03, 5
+timothy.trovatelli@epfl.ch, "One Flew Over the Cuckoo's Nest", 20/11/07, 1
+redouane.elghazi@epfl.ch, "The Godfather", 20/11/08, 4
+alexander.johansen@epfl.ch, "12 Angry Men", 20/12/05, 5
+timur.lavrov@epfl.ch, "Raging Bull", 20/12/13, 4
+jonathan.donz@epfl.ch, "The Dark Knight", 21/01/05, 1
+loic.droz@epfl.ch, "Singin' in the Rain", 21/01/07, 1
+rayan.daodnathoo@epfl.ch, "Rashomon", 21/02/11, 1
+romain.mendez@epfl.ch, "12 Angry Men", 21/02/15, 5
+hedi.driss@epfl.ch, "Double Indemnity", 21/03/04, 1
+quentin.fisch@epfl.ch, "Ikiru", 21/03/06, 3
+david.salathe@epfl.ch, "Schindler's List", 21/03/14, 1
+fouad.mazen@epfl.ch, "One Flew Over the Cuckoo's Nest", 21/04/01, 4
+firas.kanoun@epfl.ch, "Paths of Glory", 21/05/00, 2
+davor.todorovski@epfl.ch, "The Godfather: Part II", 21/05/07, 5
+jonathan.scanzi@epfl.ch, "Star Wars: Episode V - The Empire Strikes Back", 21/05/08, 2
+jorn.hofstad@epfl.ch, "Schindler's List", 21/05/13, 1
+stephanie.lebrun@epfl.ch, "Spirited Away", 21/06/01, 3
+michal.pleskowicz@epfl.ch, "Double Indemnity", 21/06/02, 3
+jonas.jaggi@epfl.ch, "The Third Man", 21/06/04, 2
+romain.mendez@epfl.ch, "Tokyo Story", 21/06/04, 5
+irina.kozlova@epfl.ch, "Pulp Fiction", 21/06/06, 1
+irina.kozlova@epfl.ch, "Modern Times", 21/06/07, 2
+hector.izquierdofernandez@epfl.ch, "12 Angry Men", 21/07/12, 1
+arnaud.boissaye@epfl.ch, "Seven Samurai", 21/08/14, 1
+farnood.salehi@epfl.ch, "Apocalypse Now", 21/09/02, 3
+johan.lanzrein@epfl.ch, "Goodfellas", 21/09/06, 1
+mathieu.ducroux@epfl.ch, "All About Eve", 21/09/11, 1
+natalia.gullonaltes@epfl.ch, "Double Indemnity", 21/10/07, 4
+roberto.terceros@outlook.com, "The Shawshank Redemption", 21/10/11, 1
+hedi.driss@epfl.ch, "Goodfellas", 21/11/02, 5
+serif.serbest@epfl.ch, "Tokyo Story", 21/11/02, 4
+matthieu.bovel@epfl.ch, "Bicycle Thieves", 21/11/05, 2
+martin.chatton@epfl.ch, "The Godfather", 21/11/12, 4
+alex.ferragni@epfl.ch, "Goodfellas", 21/12/10, 4
+gregoire.clement@epfl.ch, "The Godfather", 22/01/15, 1
+stephen.zhao@epfl.ch, "All About Eve", 22/02/07, 4
+alexandre.chambet@epfl.ch, "Bicycle Thieves", 22/02/15, 3
+nihal.yuceturk@epfl.ch, "Sunrise", 22/03/00, 4
+vincent.cabrini@epfl.ch, "Taxi Driver", 22/03/02, 2
+mathias.goncalves@epfl.ch, "The 400 Blows", 22/03/04, 1
+liangwei.chen@epfl.ch, "The Godfather", 22/03/06, 3
+sylvain.chatel@epfl.ch, "Star Wars: Episode IV - A New Hope", 22/03/10, 3
+mohamed.ndoye@epfl.ch, "12 Angry Men", 22/03/11, 4
+jelena.banjac@epfl.ch, "Chinatown", 22/03/12, 3
+caroline.violot@epfl.ch, "The Good, the Bad and the Ugly", 22/04/00, 4
+romain.caristan@epfl.ch, "The Godfather: Part II", 22/05/06, 5
+cosmin.rusu@epfl.ch, "The Godfather: Part II", 22/05/06, 3
+simon.roquette@epfl.ch, "Rear Window", 22/05/13, 5
+justinas.sukaitis@epfl.ch, "Star Wars: Episode V - The Empire Strikes Back", 22/06/07, 1
+enguerrand.granoux@epfl.ch, "All About Eve", 22/06/12, 4
+justine.weber@epfl.ch, "Modern Times", 22/06/12, 3
+irene.petlacalcobarrios@epfl.ch, "The Night of the Hunter", 22/07/05, 1
+johan.lanzrein@epfl.ch, "North by Northwest", 22/09/06, 4
+gunes.yurdakul@epfl.ch, "One Flew Over the Cuckoo's Nest", 22/09/13, 4
+alexander.holloway@epfl.ch, "M", 22/10/04, 2
+bruno.wicht@epfl.ch, "The Godfather: Part II", 22/11/00, 3
+niroshan.vijayarasa@epfl.ch, "Sunrise", 22/11/02, 4
+natalia.gullonaltes@epfl.ch, "Rear Window", 22/11/03, 4
+gregoire.clement@epfl.ch, "Star Wars: Episode V - The Empire Strikes Back", 22/11/05, 1
+charles.coster@epfl.ch, "The Dark Knight", 22/11/05, 4
+rayan.daodnathoo@epfl.ch, "All About Eve", 22/11/11, 2
+ahmad.hazimeh@epfl.ch, "Raiders of the Lost Ark", 22/11/12, 4
+yann.vonlanthen@epfl.ch, "M", 22/11/14, 5
+fatine.benhsain@epfl.ch, "Modern Times", 22/12/00, 4
+theo.nikles@epfl.ch, "Vertigo", 22/12/01, 2
+alexandru.mocanu@epfl.ch, "Spirited Away", 22/12/08, 4
+loic.nguyen@epfl.ch, "Psycho", 23/01/11, 4
+marc.bickel@epfl.ch, "Raging Bull", 23/01/13, 3
+manana.lortkipanidze@epfl.ch, "Citizen Kane", 23/01/14, 5
+matthieu.baud@epfl.ch, "Double Indemnity", 23/01/16, 1
+jannik.reichert@epfl.ch, "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb", 23/02/02, 5
+liangwei.chen@epfl.ch, "On the Waterfront", 23/02/08, 3
+justine.weber@epfl.ch, "Raiders of the Lost Ark", 23/02/16, 4
+ilkan.kilic@epfl.ch, "The 400 Blows", 23/03/05, 1
+yusi.zou@epfl.ch, "Sunset Blvd.", 23/03/07, 1
+igor.zablotchi@epfl.ch, "North by Northwest", 23/04/04, 2
+bendik.standal@epfl.ch, "Ikiru", 23/04/05, 5
+nihal.yuceturk@epfl.ch, "Spirited Away", 23/04/11, 4
+edouard.ghaleb@epfl.ch, "Apocalypse Now", 23/04/15, 3
+elie.daou@epfl.ch, "Seven Samurai", 23/05/04, 3
+yawen.hou@epfl.ch, "M", 23/05/08, 4
+yawen.hou@epfl.ch, "The Dark Knight", 23/05/15, 2
+davor.todorovski@epfl.ch, "The Shawshank Redemption", 23/05/16, 5
+bendik.standal@epfl.ch, "The Wages of Fear", 23/06/05, 2
+erdem.bocugoz@epfl.ch, "Chinatown", 23/06/06, 4
+mahammad.shirinov@epfl.ch, "All About Eve", 23/06/10, 1
+asli.yorusun@epfl.ch, "Taxi Driver", 23/06/12, 5
+simon.lebail-collet@epfl.ch, "Raiders of the Lost Ark", 23/06/15, 1
+fengyu.cai@epfl.ch, "Schindler's List", 23/06/16, 5
+bogdan.kulynych@epfl.ch, "Schindler's List", 23/06/16, 2
+vincent.rinaldi@epfl.ch, "Star Wars: Episode IV - A New Hope", 23/07/07, 3
+guillaume.michel@epfl.ch, "M", 23/07/09, 3
+murat.topak@epfl.ch, "Raiders of the Lost Ark", 23/07/10, 3
+irene.petlacalcobarrios@epfl.ch, "Sunrise", 23/07/14, 5
+cosmin.rusu@epfl.ch, "Spirited Away", 23/08/00, 5
+alexandre.carlier@epfl.ch, "Star Wars: Episode IV - A New Hope", 23/08/05, 3
+david.resin@epfl.ch, "One Flew Over the Cuckoo's Nest", 23/08/05, 1
+theo.nikles@epfl.ch, "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb", 23/08/15, 4
+ahmad.hazimeh@epfl.ch, "The Night of the Hunter", 23/09/12, 2
+jiafan.liu@epfl.ch, "The Godfather", 23/09/12, 4
+mohamed.ndoye@epfl.ch, "Lawrence of Arabia", 23/09/12, 3
+adrian.guerra@epfl.ch, "Seven Samurai", 23/09/16, 3
+alex.ferragni@epfl.ch, "Sunrise", 23/10/08, 5
+t.nguyen@epfl.ch, "The Night of the Hunter", 23/10/16, 2
+maxime.pisa@epfl.ch, "On the Waterfront", 23/11/06, 3
+guillaume.caviggia@epfl.ch, "Star Wars: Episode V - The Empire Strikes Back", 23/11/07, 5
+valentin.meylan@epfl.ch, "Raiders of the Lost Ark", 23/11/11, 4
+keshav.singh@epfl.ch, "Goodfellas", 24/01/00, 3
+serif.serbest@epfl.ch, "Goodfellas", 24/01/03, 2
+jonathan.donz@epfl.ch, "Fanny and Alexander", 24/01/09, 2
+valentin.meylan@epfl.ch, "Pulp Fiction", 24/02/03, 3
+dorian.laforest@epfl.ch, "Pulp Fiction", 24/02/04, 4
+zeineb.sahnoun@epfl.ch, "Paths of Glory", 24/02/07, 3
+fouad.mazen@epfl.ch, "The Godfather: Part II", 24/03/03, 4
+mathilde.raynal@epfl.ch, "The Godfather", 24/03/12, 3
+aleksei.kashuba@epfl.ch, "Ikiru", 24/03/14, 2
+matthieu.buotdelepine@epfl.ch, "North by Northwest", 24/04/04, 3
+fengyu.cai@epfl.ch, "On the Waterfront", 24/04/04, 5
+sofia.giampietro@epfl.ch, "The Third Man", 24/04/04, 2
+jeanne.chaverot@epfl.ch, "Rear Window", 24/04/07, 1
+clement.burgelin@epfl.ch, "North by Northwest", 24/04/11, 3
+yawen.hou@epfl.ch, "Paths of Glory", 24/04/11, 3
+david.darocharodrigues@epfl.ch, "Sunset Blvd.", 24/04/12, 4
+arnaud.garin@epfl.ch, "Once Upon a Time in the West", 24/04/13, 4
+kamil.lesiak@epfl.ch, "Modern Times", 24/05/05, 5
+frederic.bischoff@epfl.ch, "All About Eve", 24/05/13, 5
+elias.poromawiri@epfl.ch, "Raiders of the Lost Ark", 24/06/02, 2
+wanhao.zhou@epfl.ch, "Lawrence of Arabia", 24/06/06, 3
+dorian.laforest@epfl.ch, "Rashomon", 24/06/08, 5
+charles.coster@epfl.ch, "The Godfather: Part II", 24/06/12, 5
+benoit.juif@epfl.ch, "Fanny and Alexander", 24/06/14, 1
+timothee-florian.bronner@epfl.ch, "Star Wars: Episode V - The Empire Strikes Back", 24/06/16, 3
+alexander.johansen@epfl.ch, "Double Indemnity", 24/07/04, 5
+joona.soratie@epfl.ch, "Bicycle Thieves", 24/07/07, 1
+jorn.hofstad@epfl.ch, "Singin' in the Rain", 24/07/10, 5
+lukas.gelbmann@epfl.ch, "Double Indemnity", 24/07/14, 4
+stephanie.lebrun@epfl.ch, "Rashomon", 24/07/16, 1
+jeanne.fleury@epfl.ch, "Spirited Away", 24/08/02, 4
+ahmad.hazimeh@epfl.ch, "12 Angry Men", 24/08/08, 3
+romain.liautaud@epfl.ch, "Spirited Away", 24/08/09, 2
+andrea.piccione@epfl.ch, "Psycho", 24/09/00, 3
+clement.burgelin@epfl.ch, "On the Waterfront", 24/09/06, 3
+manuel.faysse@epfl.ch, "Taxi Driver", 24/09/11, 3
+lkham.nyambuu@epfl.ch, "The Shawshank Redemption", 24/09/11, 2
+robin.berguerand@epfl.ch, "Bicycle Thieves", 24/09/16, 3
+su.li@epfl.ch, "Metropolis", 24/10/00, 2
+gunes.yurdakul@epfl.ch, "On the Waterfront", 24/10/03, 1
+joona.soratie@epfl.ch, "Lawrence of Arabia", 24/10/06, 2
+ahmet.atalik@epfl.ch, "Sunset Blvd.", 24/10/16, 3
+samuel.edlervonbaussnern@epfl.ch, "Fanny and Alexander", 24/11/01, 5
+junze.li@epfl.ch, "12 Angry Men", 24/11/01, 1
+thanuditha.wickramasinghe@epfl.ch, "Bicycle Thieves", 24/11/01, 3
+xavier.pantet@epfl.ch, "2001: A Space Odyssey", 24/11/12, 1
+robin.berguerand@epfl.ch, "The Dark Knight", 24/11/13, 2
+julien.heitmann@epfl.ch, "Sunrise", 24/11/13, 1
+dino.mujkic@epfl.ch, "Rear Window", 24/12/02, 4
+lionel.pellier@epfl.ch, "Bicycle Thieves", 24/12/03, 4
+pablo.pfister@epfl.ch, "Taxi Driver", 24/12/09, 1
+martin.milenkoski@epfl.ch, "Once Upon a Time in the West", 24/12/16, 3
+yann.vonlanthen@epfl.ch, "The Night of the Hunter", 25/01/03, 3
+ivan.yurov@epfl.ch, "Star Wars: Episode V - The Empire Strikes Back", 25/01/13, 3
+sami.benhassen@epfl.ch, "It's a Wonderful Life", 25/01/14, 4
+jean-pierre.hubaux@epfl.ch, "Star Wars: Episode V - The Empire Strikes Back", 25/02/01, 3
+gunes.yurdakul@epfl.ch, "It's a Wonderful Life", 25/02/01, 1
+alexis.dewaele@epfl.ch, "Rashomon", 25/02/06, 1
+andres.monterocassab@epfl.ch, "Raging Bull", 25/02/08, 2
+maxime.hulliger@epfl.ch, "The 400 Blows", 25/02/11, 1
+francis.damachi@epfl.ch, "Tokyo Story", 25/03/04, 3
+alexandre.carlier@epfl.ch, "Chinatown", 25/03/06, 5
+etienne.bonvin@epfl.ch, "2001: A Space Odyssey", 25/03/14, 4
+junze.li@epfl.ch, "Double Indemnity", 25/03/16, 1
+liangwei.chen@epfl.ch, "Bicycle Thieves", 25/04/05, 1
+loic.droz@epfl.ch, "On the Waterfront", 25/04/11, 4
+delphine.peter@epfl.ch, "City Lights", 25/05/03, 4
+elliott.bertrand@epfl.ch, "Chinatown", 25/05/06, 5
+eleonora.rocchi@epfl.ch, "The Night of the Hunter", 25/05/08, 3
+alexis.mermet@epfl.ch, "Schindler's List", 25/05/11, 3
+fares.ahmed@epfl.ch, "The Night of the Hunter", 25/05/12, 1
+martin.vold@epfl.ch, "Bicycle Thieves", 25/05/13, 4
+andres.monterocassab@epfl.ch, "The Third Man", 25/05/16, 1
+stephen.zhao@epfl.ch, "Double Indemnity", 25/06/08, 4
+jelena.banjac@epfl.ch, "Modern Times", 25/07/03, 5
+sacha.kozma@epfl.ch, "The Night of the Hunter", 25/07/11, 2
+thibaud.perret@epfl.ch, "Casablanca", 25/07/13, 2
+benno.schneeberger@epfl.ch, "Casablanca", 25/07/13, 2
+manuel.cherep@epfl.ch, "Modern Times", 25/08/00, 4
+xavier.pantet@epfl.ch, "North by Northwest", 25/08/06, 4
+kopiga.rasiah@epfl.ch, "Pulp Fiction", 25/08/16, 1
+p.gabioud@epfl.ch, "Pulp Fiction", 25/09/03, 5
+carmela.troncoso@epfl.ch, "The 400 Blows", 25/09/06, 3
+floriane.gillieron@epfl.ch, "Sunset Blvd.", 25/09/08, 2
+stephanie.lebrun@epfl.ch, "Lawrence of Arabia", 25/09/12, 3
+delphine.peter@epfl.ch, "Paths of Glory", 25/09/14, 1
+aurelien.chaline@epfl.ch, "Rashomon", 25/10/14, 5
+ali.elabridi@epfl.ch, "Modern Times", 25/10/16, 5
+delphine.peter@epfl.ch, "Chinatown", 25/11/08, 4
+guillaume.vizier@epfl.ch, "Citizen Kane", 25/12/03, 2
+lois.bilat@epfl.ch, "The Wages of Fear", 25/12/04, 3
+marco.abrate@epfl.ch, "Psycho", 25/12/07, 4
+fares.ahmed@epfl.ch, "Tokyo Story", 25/12/11, 1
+elliott.bertrand@epfl.ch, "Vertigo", 26/01/07, 1
+boying.liu@epfl.ch, "Goodfellas", 26/01/09, 4
+manuel.faysse@epfl.ch, "The Godfather: Part II", 26/01/16, 2
+mahammad.shirinov@epfl.ch, "M", 26/02/01, 3
+alexis.dewaele@epfl.ch, "Metropolis", 26/02/10, 3
+romain.jufer@epfl.ch, "The Good, the Bad and the Ugly", 26/02/15, 4
+zhechen.su@epfl.ch, "The Shawshank Redemption", 26/03/02, 1
+romain.jufer@epfl.ch, "Star Wars: Episode IV - A New Hope", 26/03/05, 1
+jeanne.chaverot@epfl.ch, "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb", 26/03/10, 4
+aslam.cader@epfl.ch, "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb", 26/03/11, 1
+sandra.siby@epfl.ch, "Sunrise", 26/03/12, 2
+gregoire.hirt@epfl.ch, "12 Angry Men", 26/04/02, 5
+christoph.ungricht@epfl.ch, "Apocalypse Now", 26/04/02, 2
+sami.benhassen@epfl.ch, "Singin' in the Rain", 26/04/07, 2
+robin.leurent@epfl.ch, "Chinatown", 26/04/10, 4
+david.desobry@epfl.ch, "One Flew Over the Cuckoo's Nest", 26/04/12, 1
+gregoire.clement@epfl.ch, "Taxi Driver", 26/04/15, 1
+nicolas.jeitziner@epfl.ch, "2001: A Space Odyssey", 26/04/16, 1
+sami.benhassen@epfl.ch, "Star Wars: Episode IV - A New Hope", 26/05/00, 3
+daniel.smarda@epfl.ch, "The Night of the Hunter", 26/05/02, 5
+nikita.filippov@epfl.ch, "The Shawshank Redemption", 26/05/08, 1
+sacha.kozma@epfl.ch, "The Godfather", 26/05/11, 2
+hedi.driss@epfl.ch, "It's a Wonderful Life", 26/05/16, 2
+kamil.lesiak@epfl.ch, "Tokyo Story", 26/06/01, 1
+sandra.siby@epfl.ch, "The Third Man", 26/06/02, 2
+sacha.kozma@epfl.ch, "12 Angry Men", 26/06/07, 1
+su.li@epfl.ch, "Goodfellas", 26/06/11, 1
+junze.li@epfl.ch, "Sunrise", 26/07/04, 2
+maxime.hulliger@epfl.ch, "Star Wars: Episode IV - A New Hope", 26/07/05, 5
+lois.bilat@epfl.ch, "The Shawshank Redemption", 26/07/07, 5
+dorian.laforest@epfl.ch, "The Wages of Fear", 26/07/07, 2
+vincent.rinaldi@epfl.ch, "The Shawshank Redemption", 26/07/10, 3
+jannik.reichert@epfl.ch, "Pulp Fiction", 26/07/12, 5
+robin.leurent@epfl.ch, "Taxi Driver", 26/08/06, 4
+benjamin.deleze@epfl.ch, "Psycho", 26/08/08, 1
+andres.monterocassab@epfl.ch, "Rashomon", 26/08/13, 1
+louis-nicolas.douce@epfl.ch, "All About Eve", 26/09/08, 3
+bruno.wicht@epfl.ch, "On the Waterfront", 26/09/09, 2
+benno.schneeberger@epfl.ch, "Sunrise", 26/09/14, 3
+nihal.yuceturk@epfl.ch, "M", 26/10/13, 3
+diego.iriartesainz@epfl.ch, "On the Waterfront", 26/10/15, 5
+radu.martin@epfl.ch, "Raging Bull", 26/11/02, 2
+niroshan.vijayarasa@epfl.ch, "Seven Samurai", 26/11/02, 5
+justinas.sukaitis@epfl.ch, "All About Eve", 26/11/04, 1
+maxime.lemarignier@epfl.ch, "The 400 Blows", 26/11/10, 3
+regis.croset@epfl.ch, "The Godfather", 26/12/01, 4
+nourchene.benromdhane@epfl.ch, "Lawrence of Arabia", 26/12/05, 4
+valerian.rey@epfl.ch, "Chinatown", 26/12/06, 3
+samuel.edlervonbaussnern@epfl.ch, "Star Wars: Episode V - The Empire Strikes Back", 26/12/07, 2
+manuel.faysse@epfl.ch, "Rear Window", 27/01/04, 5
+romain.caristan@epfl.ch, "Pulp Fiction", 27/02/02, 3
+justinas.sukaitis@epfl.ch, "Singin' in the Rain", 27/02/07, 3
+ali.fessi@epfl.ch, "The Third Man", 27/03/00, 4
+floriane.gillieron@epfl.ch, "Apocalypse Now", 27/03/04, 2
+valerian.rey@epfl.ch, "Bicycle Thieves", 27/03/05, 1
+julien.vonfelten@epfl.ch, "The Good, the Bad and the Ugly", 27/03/07, 3
+valentin.hartmann@epfl.ch, "The Good, the Bad and the Ugly", 27/03/12, 3
+firas.kanoun@epfl.ch, "Once Upon a Time in the West", 27/03/14, 1
+ilkan.kilic@epfl.ch, "The Third Man", 27/05/00, 5
+isabelle.pumford@epfl.ch, "Singin' in the Rain", 27/05/14, 3
+hugo.aguettaz@epfl.ch, "Seven Samurai", 27/05/16, 1
+niroshan.vijayarasa@epfl.ch, "The Wages of Fear", 27/06/04, 2
+alexis.dewaele@epfl.ch, "Sunrise", 27/06/08, 4
+loic.nguyen@epfl.ch, "Raging Bull", 27/06/12, 4
+manana.lortkipanidze@epfl.ch, "On the Waterfront", 27/07/13, 1
+romain.liautaud@epfl.ch, "Ikiru", 27/08/00, 3
+ali.alami-idrissi@epfl.ch, "The Shawshank Redemption", 27/08/02, 4
+david.salathe@epfl.ch, "The 400 Blows", 27/08/05, 5
+maxime.voituriez@epfl.ch, "Tokyo Story", 27/08/06, 5
+wan-tzu.huang@epfl.ch, "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb", 27/08/08, 5
+alix.jeannerot@epfl.ch, "Rashomon", 27/09/02, 4
+orcun.gumus@epfl.ch, "Bicycle Thieves", 27/09/03, 5
+mathilde.raynal@epfl.ch, "Schindler's List", 27/09/03, 1
+julien.vonfelten@epfl.ch, "Sunrise", 27/09/06, 4
+benjamin.deleze@epfl.ch, "Star Wars: Episode IV - A New Hope", 27/09/16, 1
+t.nguyen@epfl.ch, "Sunset Blvd.", 27/10/05, 5
+marc.bickel@epfl.ch, "Metropolis", 27/11/03, 1
+vincent.coriou@epfl.ch, "The Dark Knight", 27/11/03, 3
+bogdan.kulynych@epfl.ch, "Pulp Fiction", 27/11/07, 4
+junze.li@epfl.ch, "The 400 Blows", 27/12/04, 5
+david.desobry@epfl.ch, "Rashomon", 27/12/12, 5
+nihal.yuceturk@epfl.ch, "Chinatown", 28/01/05, 2
+nourchene.benromdhane@epfl.ch, "The 400 Blows", 28/01/07, 4
+lionel.pellier@epfl.ch, "The Good, the Bad and the Ugly", 28/01/07, 3
+luca.joss@epfl.ch, "The Dark Knight", 28/01/11, 5
+christoph.ungricht@epfl.ch, "Casablanca", 28/01/13, 1
+timothee-florian.bronner@epfl.ch, "City Lights", 28/02/05, 1
+loic.serafin@epfl.ch, "Casablanca", 28/02/08, 5
+lionel.constantin@epfl.ch, "It's a Wonderful Life", 28/02/10, 4
+bruno.wicht@epfl.ch, "Vertigo", 28/02/12, 5
+sacha.leblanc@epfl.ch, "North by Northwest", 28/02/13, 4
+alexander.johansen@epfl.ch, "The Third Man", 28/02/16, 1
+isabel.tharigen@epfl.ch, "Once Upon a Time in the West", 28/03/10, 1
+jorn.hofstad@epfl.ch, "Casablanca", 28/03/15, 3
+firas.kanoun@epfl.ch, "Apocalypse Now", 28/03/16, 3
+timothy.trovatelli@epfl.ch, "Rear Window", 28/04/04, 2
+arnaud.duvieusart@epfl.ch, "Vertigo", 28/04/07, 1
+serif.serbest@epfl.ch, "Spirited Away", 28/04/15, 2
+martin.chatton@epfl.ch, "On the Waterfront", 28/05/02, 2
+valerian.rey@epfl.ch, "Rashomon", 28/05/06, 3
+matthieu.buotdelepine@epfl.ch, "M", 28/05/11, 4
+theo.nikles@epfl.ch, "Rear Window", 28/05/16, 1
+nourchene.benromdhane@epfl.ch, "The Dark Knight", 28/06/00, 2
+david.salathe@epfl.ch, "It's a Wonderful Life", 28/06/00, 3
+edouard.ghaleb@epfl.ch, "It's a Wonderful Life", 28/06/03, 4
+matthieu.buotdelepine@epfl.ch, "The Godfather", 28/06/04, 5
+arnaud.boissaye@epfl.ch, "The Godfather", 28/06/08, 1
+remi.coudert@epfl.ch, "Ikiru", 28/06/09, 3
+pierre.thevenet@epfl.ch, "Rear Window", 28/06/09, 1
+mike.bardet@epfl.ch, "The 400 Blows", 28/06/16, 1
+martin.vold@epfl.ch, "The Shawshank Redemption", 28/07/04, 3
+yueran.liang@epfl.ch, "2001: A Space Odyssey", 28/07/10, 4
+guillaume.caviggia@epfl.ch, "Metropolis", 28/07/13, 1
+sylvain.chatel@epfl.ch, "It's a Wonderful Life", 28/07/14, 2
+xavier.pantet@epfl.ch, "Tokyo Story", 28/08/06, 1
+omar.boujdaria@epfl.ch, "On the Waterfront", 28/08/09, 4
+romain.caristan@epfl.ch, "The Third Man", 28/09/04, 2
+frederic.myotte@epfl.ch, "Ikiru", 28/10/04, 5
+wan-tzu.huang@epfl.ch, "Raiders of the Lost Ark", 28/10/09, 2
+maxime.voituriez@epfl.ch, "The Night of the Hunter", 28/10/10, 4
+thanuditha.wickramasinghe@epfl.ch, "The Godfather: Part II", 28/10/14, 3
+regis.croset@epfl.ch, "The Godfather: Part II", 28/11/00, 1
+futong.liu@epfl.ch, "Spirited Away", 28/12/07, 5
+jeanne.chaverot@epfl.ch, "Once Upon a Time in the West", 29/01/12, 5
+pietro.carta@epfl.ch, "Schindler's List", 29/01/16, 4
+isabel.tharigen@epfl.ch, "Rear Window", 29/03/02, 3
+cristina.basescu@epfl.ch, "Rear Window", 29/03/08, 2
+guillaume.vizier@epfl.ch, "Bicycle Thieves", 29/03/10, 1
+can.altinigne@epfl.ch, "The Dark Knight", 29/03/11, 5
+pedro.torresdacunha@epfl.ch, "Raging Bull", 29/05/02, 3
+romain.mendez@epfl.ch, "M", 29/05/03, 5
+yoann.russello@epfl.ch, "The Godfather", 29/05/06, 5
+ilija.gjorgjiev@epfl.ch, "The Wages of Fear", 29/05/14, 4
+elie.daou@epfl.ch, "The Third Man", 29/05/15, 5
+orcun.gumus@epfl.ch, "Sunrise", 29/06/03, 1
+maklewa.harena@epfl.ch, "Bicycle Thieves", 29/07/01, 4
+alexandre.chau@epfl.ch, "One Flew Over the Cuckoo's Nest", 29/07/02, 3
+isabelle.pumford@epfl.ch, "The Wages of Fear", 29/07/03, 1
+wan-tzu.huang@epfl.ch, "Apocalypse Now", 29/07/05, 5
+charles.coster@epfl.ch, "On the Waterfront", 29/07/09, 3
+radu.martin@epfl.ch, "City Lights", 29/07/16, 4
+mathilde.raynal@epfl.ch, "Once Upon a Time in the West", 29/08/02, 3
+marion.letilly@epfl.ch, "Singin' in the Rain", 29/08/04, 4
+cedric.maire@epfl.ch, "North by Northwest", 29/08/06, 1
+justine.weber@epfl.ch, "Sunrise", 29/08/07, 3
+udaranga.wickramasinghe@epfl.ch, "Sunset Blvd.", 29/08/11, 2
+marc.anhoury@epfl.ch, "The 400 Blows", 29/09/02, 4
+jeanne.chaverot@epfl.ch, "The Night of the Hunter", 29/09/03, 1
+nicolas.jeitziner@epfl.ch, "M", 29/09/07, 4
+simon.roquette@epfl.ch, "Bicycle Thieves", 29/09/07, 5
+sinem.sav@epfl.ch, "M", 29/10/07, 3
+michal.pleskowicz@epfl.ch, "Tokyo Story", 29/10/10, 5
+kopiga.rasiah@epfl.ch, "Star Wars: Episode IV - A New Hope", 29/11/03, 3
+matthieu.bovel@epfl.ch, "Goodfellas", 29/11/09, 4
+frederic.myotte@epfl.ch, "Rear Window", 29/11/12, 4
+junze.li@epfl.ch, "It's a Wonderful Life", 29/12/03, 2
+udaranga.wickramasinghe@epfl.ch, "Rear Window", 29/12/03, 1
+caroline.violot@epfl.ch, "City Lights", 29/12/09, 5
+stevan.ognjanovic@epfl.ch, "Sunrise", 29/12/11, 5
+christoph.ungricht@epfl.ch, "It's a Wonderful Life", 29/12/13, 5
+ali.fessi@epfl.ch, "Vertigo", 30/01/03, 3
+maklewa.harena@epfl.ch, "2001: A Space Odyssey", 30/03/12, 2
+liana.mehrabyan@epfl.ch, "Ikiru", 30/03/13, 4
+zeineb.sahnoun@epfl.ch, "Apocalypse Now", 30/03/14, 3
+mohamed.ndoye@epfl.ch, "Seven Samurai", 30/03/16, 3
+Noe.Zufferey@unil.ch, "Star Wars: Episode IV - A New Hope", 30/04/13, 5
+lionel.constantin@epfl.ch, "Raiders of the Lost Ark", 30/04/14, 2
+david.darocharodrigues@epfl.ch, "Schindler's List", 30/04/15, 5
+hector.izquierdofernandez@epfl.ch, "Pulp Fiction", 30/04/15, 2
+sofia.kypraiou@epfl.ch, "City Lights", 30/05/01, 2
+gregoire.hirt@epfl.ch, "Apocalypse Now", 30/05/05, 1
+ahmet.atalik@epfl.ch, "Chinatown", 30/05/07, 5
+fatine.benhsain@epfl.ch, "The 400 Blows", 30/05/10, 3
+marco.abrate@epfl.ch, "It's a Wonderful Life", 30/06/13, 4
+valentin.borgeaud@epfl.ch, "Casablanca", 30/07/02, 5
+simon.roquette@epfl.ch, "Raging Bull", 30/07/03, 2
+etienne.bonvin@epfl.ch, "City Lights", 30/07/07, 1
+arnaud.duvieusart@epfl.ch, "Ikiru", 30/07/13, 3
+farnood.salehi@epfl.ch, "Vertigo", 30/07/15, 3
+alexandre.chau@epfl.ch, "The Godfather", 30/08/09, 2
+julien.heitmann@epfl.ch, "Seven Samurai", 30/08/10, 5
+ahmed.ozkalay@epfl.ch, "Casablanca", 30/08/14, 4
+romain.mendez@epfl.ch, "One Flew Over the Cuckoo's Nest", 30/08/15, 2
+mathilde.raynal@epfl.ch, "Modern Times", 30/09/03, 5
+bryan.abate@epfl.ch, "Lawrence of Arabia", 30/09/12, 2
+adrian.guerra@epfl.ch, "Fanny and Alexander", 30/09/15, 4
+joona.soratie@epfl.ch, "Taxi Driver", 30/09/16, 3
+germain.zouein@epfl.ch, "All About Eve", 30/10/01, 5
+roberto.terceros@outlook.com, "City Lights", 30/11/13, 2
+aslam.cader@epfl.ch, "Spirited Away", 30/12/04, 5
+floriane.gillieron@epfl.ch, "All About Eve", 30/12/06, 4
+julien.vonfelten@epfl.ch, "Paths of Glory", 31/03/02, 4
+emiel.huyghe@epfl.ch, "Raging Bull", 31/03/15, 1
+fengyu.cai@epfl.ch, "Rear Window", 31/05/02, 5
+natalia.gullonaltes@epfl.ch, "Taxi Driver", 31/05/02, 3
+zhechen.su@epfl.ch, "Schindler's List", 31/07/03, 2
+marc.anhoury@epfl.ch, "Goodfellas", 31/07/07, 2
+fares.ahmed@epfl.ch, "Fanny and Alexander", 31/07/10, 1
+simon.lebail-collet@epfl.ch, "The Dark Knight", 31/07/13, 3
+aslam.cader@epfl.ch, "Raging Bull", 31/08/01, 4
+hugo.aguettaz@epfl.ch, "The Godfather", 31/08/02, 3
+ahmed.ahres@epfl.ch, "Double Indemnity", 31/08/06, 3
+elie.daou@epfl.ch, "Ikiru", 31/08/09, 3
+joachim.desroches@epfl.ch, "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb", 31/08/11, 5
+benoit.juif@epfl.ch, "Raging Bull", 31/08/16, 2
+ivan.yurov@epfl.ch, "City Lights", 31/08/16, 5
+ayyoub.elamrani@epfl.ch, "Tokyo Story", 31/10/00, 3
+alexandre.carlier@epfl.ch, "Metropolis", 31/10/02, 2
+joachim.desroches@epfl.ch, "All About Eve", 31/10/05, 5
+andres.monterocassab@epfl.ch, "Fanny and Alexander", 31/10/16, 1
+benno.schneeberger@epfl.ch, "Double Indemnity", 31/12/06, 4
+jean-pierre.hubaux@epfl.ch, "The Good, the Bad and the Ugly", 31/12/07, 2
+jonathan.regef@epfl.ch, "2001: A Space Odyssey", 31/12/08, 5
+maxime.lemarignier@epfl.ch, "Rear Window", 31/12/10, 1
