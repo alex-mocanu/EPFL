@@ -1,54 +1,37 @@
 import gym
-from gym import spaces
 import numpy as np
-from argparse import ArgumentParser
 from collections import defaultdict
 
 
 class MDP(gym.Env):
-    def __init__(self, rng, argparser):
+    def __init__(self, rng, cfg):
         self.rng = rng
-        self.init_env(argparser)
+        self.init_env(cfg)
         self.ep_step = 0
 
-    def init_env(self, argparser):
+    def init_env(self, cfg):
         '''
         Generate the structure of the environment
         :param argparser: argument parser used for providing the hyperparameters
         of the system
         '''
-        argparser.add_argument('--num_states', type=int, default=10,
-            help='number of states')
-        argparser.add_argument('--num_actions', type=int, default=3,
-            help='number of actions')
-        argparser.add_argument('--num_features', type=int, default=2,
-            help='number of features to represent a state')
-        argparser.add_argument('--ep_size', type=int, default=100,
-            help='number of steps in an episode')
-        argparser.add_argument('--sigma_r', type=int, default=0.1,
-            help='standard deviation of the reward generator')
-        args = argparser.parse_args()
-
-        self.state_space = spaces.Discrete(args.num_states)
-        self.action_space = spaces.Discrete(args.num_actions)
-        self.num_features = args.num_features
-        self.episode_size = args.ep_size
-        self._sigma_r = args.sigma_r
+        self.num_states = cfg.num_states
+        self.num_actions = cfg.num_actions
+        self.num_features = cfg.num_features
+        self.episode_length = cfg.episode_length
+        self._sigma_r = cfg.sigma_r
 
         # Generate transition probabilities
-        self._p = self.rng.dirichlet(np.ones(args.num_states),
-                size=(args.num_states, args.num_actions))
+        self._p = self.rng.dirichlet(np.ones(cfg.num_states),
+                size=(cfg.num_states, cfg.num_actions))
         # Generate optimal policy parameters
-        self._theta = self.rng.multivariate_normal(np.zeros(args.num_features),
-                np.eye(args.num_features), size=(args.num_actions,))
+        self._theta = self.rng.multivariate_normal(np.zeros(cfg.num_features),
+                np.eye(cfg.num_features), size=(cfg.num_actions,))
         # Generate state features
-        self._phi = self.rng.multivariate_normal(np.zeros(args.num_features),
-            np.eye(args.num_features), size=(args.num_states,))
+        self._phi = self.rng.multivariate_normal(np.zeros(cfg.num_features),
+            np.eye(cfg.num_features), size=(cfg.num_states,))
         # Generate the mean rewards
         self._mean_r = self._phi @ self._theta.T
-
-        print('Features:')
-        print(self._phi)
 
     def generate_reward(self, state, action):
         '''
@@ -67,16 +50,14 @@ class MDP(gym.Env):
         '''
         self.ep_step += 1
         done = False
-        if self.ep_step == self.episode_size:
+        if self.ep_step > self.episode_length:
             done = True
 
         if not done:
             reward = self.generate_reward(self._state, action)
         else:
             reward = 0
-        self._state = self.rng.choice(range(self.state_space.n),
-                p=self._p[self._state, action])
-
+        self._state = self.rng.choice(self.num_states, p=self._p[self._state, action])
         return self._state, reward, done, {}
 
     def reset(self):
@@ -85,8 +66,15 @@ class MDP(gym.Env):
         :return the start state
         '''
         self.ep_step = 0
-        self._state = self.state_space.sample()
+        self._state = self.rng.choice(self.num_states)
         return self._state
+
+    def set_state(self, state):
+        '''
+        Set the state of the environment
+        :param state: state to be set
+        '''
+        self._state = state
 
     def get_state(self):
         '''
@@ -106,46 +94,54 @@ class MDP(gym.Env):
             return self._phi
         return self._phi[state].reshape(-1, 1)
 
+    def export_env(self):
+        '''
+        Export environment setup
+        :return dictionary containing environment setup
+        '''
+        return {
+            'transition_probabilities': self._p,
+            'env_parameters': self._theta,
+            'state_features': self._phi
+        }
+
+    def import_env(self, settings):
+        '''
+        Import environment settings
+        :param settings: environment settings
+        '''
+        self._p = settings['transition_probabilities']
+        self._theta = settings['env_parameters']
+        self._phi = settings['state_features']
+        self._mean_r = self._phi @ self._theta.T
+
 
 class MDP_v2(gym.Env):
-    def __init__(self, rng, argparser):
+    def __init__(self, rng, cfg):
         self.rng = rng
-        self.init_env(argparser)
+        self.init_env(cfg)
         self.ep_step = 0
 
-    def init_env(self, argparser):
+    def init_env(self, cfg):
         '''
         Generate the structure of the environment
-        :param argparser: argument parser used for providing the hyperparameters
-        of the system
+        :param cfg: configurations for the environment
         '''
-        argparser.add_argument('--num_states', type=int, default=10,
-            help='number of states')
-        argparser.add_argument('--num_actions', type=int, default=2,
-            help='number of actions')
-        argparser.add_argument('--num_features', type=int, default=2,
-            help='number of features to represent a state')
-        argparser.add_argument('--ep_size', type=int, default=100,
-            help='number of steps in an episode')
-        argparser.add_argument('--sigma_r', type=int, default=0,
-            help='standard deviation of the reward generator')
-        args = argparser.parse_args()
-
-        self.state_space = spaces.Discrete(args.num_states)
-        self.action_space = spaces.Discrete(args.num_actions)
-        self.num_features = args.num_features
-        self.episode_size = args.ep_size
-        self._sigma_r = args.sigma_r
+        self.num_states = cfg.num_states
+        self.num_actions = cfg.num_actions
+        self.num_features = cfg.num_features
+        self.episode_length = cfg.ep_size
+        self._sigma_r = cfg.sigma_r
 
         # Generate transition probabilities
-        self._p = self.rng.dirichlet(np.ones(args.num_states),
-                size=(args.num_states, args.num_actions))
+        self._p = self.rng.dirichlet(np.ones(cfg.num_states),
+                size=(cfg.num_states, cfg.num_actions))
         # Generate optimal policy parameters
-        self._theta = self.rng.multivariate_normal(np.zeros(args.num_features),
-                np.eye(args.num_features))
+        self._theta = self.rng.multivariate_normal(np.zeros(cfg.num_features),
+                np.eye(cfg.num_features))
         # Generate state, action features
-        self._phi = self.rng.multivariate_normal(np.zeros(args.num_features),
-            np.eye(args.num_features), size=(args.num_states,args.num_actions))
+        self._phi = self.rng.multivariate_normal(np.zeros(cfg.num_features),
+            np.eye(cfg.num_features), size=(cfg.num_states,cfg.num_actions))
         # Generate the mean rewards
         self._mean_r = self._phi @ self._theta
 
@@ -166,15 +162,14 @@ class MDP_v2(gym.Env):
         '''
         self.ep_step += 1
         done = False
-        if self.ep_step == self.episode_size:
+        if self.ep_step == self.episode_length:
             done = True
 
         if not done:
             reward = self.generate_reward(self._state, action)
         else:
             reward = 0
-        self._state = self.rng.choice(range(self.state_space.n),
-                p=self._p[self._state, action])
+        self._state = self.rng.choice(self.num_states, p=self._p[self._state, action])
 
         return self._state, reward, done, {}
 
@@ -184,7 +179,7 @@ class MDP_v2(gym.Env):
         :return the start state
         '''
         self.ep_step = 0
-        self._state = self.state_space.sample()
+        self._state = self.rng.choice(self.num_states)
         return self._state
 
     def get_state(self):

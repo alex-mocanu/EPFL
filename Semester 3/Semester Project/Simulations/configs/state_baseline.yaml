@@ -1,0 +1,21 @@
+experiment: "mdp_state_baseline" # name of the experiment
+task: "mdp" # the task to perform
+num_epochs: 100 # the number of epochs to run in a simulation
+num_trajectories: 1 # the number of trajectories used to compute one estimation of the gradient
+num_trajectories_return: 1000 # the number of trajectories to use to collect returns
+seed: 1 # random seed for the environment and the agent
+
+env:
+  num_states: 10  # number of state
+  num_actions: 5  # number of actions
+  num_features: 2 # number of features per state
+  episode_length: 10  # length of an episode
+  sigma_r: 0.1  # standard deviation for the reward generating distributions
+
+agent:
+  lr: 1 # learning rate
+  gamma: 0.95 # discount factor for computing the return
+  baseline:
+    type: "state" # type of baseline to use
+    num_trajectories: 10  # number of trajectories used to compute the baseline
+    exact: false  # whether to compute the exact value of the baseline

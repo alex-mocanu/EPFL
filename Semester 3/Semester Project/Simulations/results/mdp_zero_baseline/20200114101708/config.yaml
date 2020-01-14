@@ -1,0 +1,19 @@
+agent:
+  baseline:
+    exact: false
+    num_trajectories: 10
+    type: zero
+  gamma: 0.95
+  lr: 1
+env:
+  episode_length: 10
+  num_actions: 5
+  num_features: 2
+  num_states: 10
+  sigma_r: 0.1
+experiment: mdp_zero_baseline
+num_epochs: 100
+num_trajectories: 1
+num_trajectories_return: 100
+seed: 1
+task: mdp
